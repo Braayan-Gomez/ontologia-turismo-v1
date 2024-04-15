@@ -1,0 +1,1335 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/andre/ontologies/turismo/oferta"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/andre/ontologies/turismo/oferta">
+    <Prefix name="" IRI="http://www.semanticweb.org/andre/ontologies/turismo/oferta"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name=":Oferta" IRI="http://www.semanticweb.org/andre/ontologies/turismo/oferta/"/>
+    <Declaration>
+        <Class IRI="#Deporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresa_de_alquiler_de_vehículos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bingo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiosco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerto_deportivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balneario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cafetería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_arte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heladería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar_de_vinos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresa_ferroviaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_estetico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valoracion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lodge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bolera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cajero_automático"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servicios_varios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guía_turístico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compañía_de_cruceros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viñero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taberna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palacio_o_centro_de_congresos_y_exposiciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campo_de_golf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complejo_turístico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panadería_y_pastelería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Devolución_de_IVA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turoperador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pista_de_patinaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vivienda_de_uso_turístico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Churrería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circuito_de_motos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servicio_médico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bodega"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hipodromo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocio_y_cultura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precio_promedio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rocodromo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cervecería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Máquina_expendedora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercado_gastronómico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_distribución_global"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercado_tradicional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_ultramarinos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pensión"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negocio_local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estadio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planetario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_masajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auditorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_infantil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gimnacio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intermediario_turístico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alojamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campo_de_futbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_interpretacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supermercado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locutorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfumería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresa_VTC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pista_de_atletismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alimentacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolatería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_telefonía"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_modas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taller_mecánico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horchatería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restauración"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joyería_y_relojería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estacion_de_deportes_de_invierno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Club_de_playa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servicio_financiero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enoteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hostal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consigna_de_equipaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sidrería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesón"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acuario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Micromovilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albergue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casa_de_cambio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoologico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campo_de_tiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bazar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clup_hipico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comercion_y_moda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operador_receptivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juguetería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coctelería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_artesanías"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chiringuito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Librería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apartahotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_accesorios_y_complementos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_de_atracciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficina_bancaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operador_de_autocares"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aerolínea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_actividades_multiaventura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salon_recreativo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estanco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polideportivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coche_compartido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asistencia_a_eventos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metabuscador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chill_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital_privado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Granja_escuela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tetería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tienda_de_souvenirs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agencia_de_viajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organización_de_eventos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peluquería"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#categoria_hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pista_de_padel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casa_de_comidas_para_llevar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancha_de_baloncesto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paquetería_y_mensajería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tintorería_o_lavandería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agencia_de_viajes_online"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glamping"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karaoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sala_de_exposiciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sala_de_conciertos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operador_de_ferrys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casa_rural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pista_de_tenis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_de_patinaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_educativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salud_y_bienestar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piscina"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acuario"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aerolínea"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agencia_de_viajes"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agencia_de_viajes_online"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albergue"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alimentacion"/>
+        <Class IRI="#Negocio_local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apartahotel"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asistencia_a_eventos"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auditorio"/>
+        <Class IRI="#Asistencia_a_eventos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balneario"/>
+        <Class IRI="#Salud_y_bienestar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bar"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bar_de_vinos"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bazar"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bingo"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bodega"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bolera"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cafetería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cajero_automático"/>
+        <Class IRI="#Servicio_financiero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campamento"/>
+        <Class IRI="#Educación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camping"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campo_de_futbol"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campo_de_golf"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campo_de_tiro"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancha_de_baloncesto"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casa_de_cambio"/>
+        <Class IRI="#Servicio_financiero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casa_de_comidas_para_llevar"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casa_rural"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casino"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_actividades_multiaventura"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_arte"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_interpretacion"/>
+        <Class IRI="#Educación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_masajes"/>
+        <Class IRI="#Salud_y_bienestar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_educativo"/>
+        <Class IRI="#Educación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_estetico"/>
+        <Class IRI="#Salud_y_bienestar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cervecería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chill_out"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiringuito"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolatería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Churrería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circuito_de_motos"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Club_de_playa"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clup_hipico"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coche_compartido"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coctelería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comercion_y_moda"/>
+        <Class IRI="#Negocio_local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compañía_de_cruceros"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complejo_turístico"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consigna_de_equipaje"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deporte"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Devolución_de_IVA"/>
+        <Class IRI="#Servicio_financiero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educación"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empresa_VTC"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empresa_de_alquiler_de_vehículos"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empresa_ferroviaria"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enoteca"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estacion_de_deportes_de_invierno"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estadio"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estanco"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Servicio_médico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gimnacio"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glamping"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Granja_escuela"/>
+        <Class IRI="#Educación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heladería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hipodromo"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horchatería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_privado"/>
+        <Class IRI="#Servicio_médico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hostal"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joyería_y_relojería"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juguetería"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karaoke"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Librería"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locutorio"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lodge"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercado_gastronómico"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercado_tradicional"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesón"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metabuscador"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Micromovilidad"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motel"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museo"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Máquina_expendedora"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocio_y_cultura"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficina_bancaria"/>
+        <Class IRI="#Servicio_financiero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operador_de_autocares"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operador_de_ferrys"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operador_receptivo"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palacio_o_centro_de_congresos_y_exposiciones"/>
+        <Class IRI="#Asistencia_a_eventos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panadería_y_pastelería"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paquetería_y_mensajería"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_de_atracciones"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_de_patinaje"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_infantil"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peluquería"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pensión"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfumería"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piscina"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pista_de_atletismo"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pista_de_padel"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pista_de_patinaje"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pista_de_tenis"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planetario"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polideportivo"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pub"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerto_deportivo"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiosco"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residencia"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rocodromo"/>
+        <Class IRI="#Deporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sala_de_conciertos"/>
+        <Class IRI="#Asistencia_a_eventos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sala_de_exposiciones"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salon_recreativo"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salud_y_bienestar"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servicio_financiero"/>
+        <Class IRI="#Negocio_local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servicio_médico"/>
+        <Class IRI="#Negocio_local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servicios_varios"/>
+        <Class IRI="#Negocio_local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sidrería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_distribución_global"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spa"/>
+        <Class IRI="#Salud_y_bienestar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taberna"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taller_mecánico"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetería"/>
+        <Class IRI="#Restauración"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_accesorios_y_complementos"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_artesanías"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_modas"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_souvenirs"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_telefonía"/>
+        <Class IRI="#Comercion_y_moda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tienda_de_ultramarinos"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tintorería_o_lavandería"/>
+        <Class IRI="#Servicios_varios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turoperador"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vivienda_de_uso_turístico"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viñero"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoologico"/>
+        <Class IRI="#Ocio_y_cultura"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Acuario"/>
+        <Class IRI="#Bodega"/>
+        <Class IRI="#Centro_de_arte"/>
+        <Class IRI="#Museo"/>
+        <Class IRI="#Parque_de_atracciones"/>
+        <Class IRI="#Parque_infantil"/>
+        <Class IRI="#Planetario"/>
+        <Class IRI="#Sala_de_exposiciones"/>
+        <Class IRI="#Salon_recreativo"/>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#Viñero"/>
+        <Class IRI="#Zoologico"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aerolínea"/>
+        <Class IRI="#Coche_compartido"/>
+        <Class IRI="#Compañía_de_cruceros"/>
+        <Class IRI="#Empresa_VTC"/>
+        <Class IRI="#Empresa_de_alquiler_de_vehículos"/>
+        <Class IRI="#Empresa_ferroviaria"/>
+        <Class IRI="#Micromovilidad"/>
+        <Class IRI="#Operador_de_autocares"/>
+        <Class IRI="#Operador_de_ferrys"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agencia_de_viajes"/>
+        <Class IRI="#Agencia_de_viajes_online"/>
+        <Class IRI="#Metabuscador"/>
+        <Class IRI="#Operador_receptivo"/>
+        <Class IRI="#Sistema_de_distribución_global"/>
+        <Class IRI="#Turoperador"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alimentacion"/>
+        <Class IRI="#Comercion_y_moda"/>
+        <Class IRI="#Servicio_financiero"/>
+        <Class IRI="#Servicio_médico"/>
+        <Class IRI="#Servicios_varios"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Asistencia_a_eventos"/>
+        <Class IRI="#Deporte"/>
+        <Class IRI="#Educación"/>
+        <Class IRI="#Fiesta_y_entretenimiento"/>
+        <Class IRI="#Ocio_y_cultura"/>
+        <Class IRI="#Salud_y_bienestar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Auditorio"/>
+        <Class IRI="#Palacio_o_centro_de_congresos_y_exposiciones"/>
+        <Class IRI="#Sala_de_conciertos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Balneario"/>
+        <Class IRI="#Centro_de_masajes"/>
+        <Class IRI="#Centro_estetico"/>
+        <Class IRI="#Spa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bar"/>
+        <Class IRI="#Bar_de_vinos"/>
+        <Class IRI="#Cafetería"/>
+        <Class IRI="#Casa_de_comidas_para_llevar"/>
+        <Class IRI="#Cervecería"/>
+        <Class IRI="#Chiringuito"/>
+        <Class IRI="#Chocolatería"/>
+        <Class IRI="#Churrería"/>
+        <Class IRI="#Coctelería"/>
+        <Class IRI="#Heladería"/>
+        <Class IRI="#Horchatería"/>
+        <Class IRI="#Mercado_gastronómico"/>
+        <Class IRI="#Mesón"/>
+        <Class IRI="#Pub"/>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#Sidrería"/>
+        <Class IRI="#Taberna"/>
+        <Class IRI="#Tetería"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bazar"/>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#Estanco"/>
+        <Class IRI="#Joyería_y_relojería"/>
+        <Class IRI="#Juguetería"/>
+        <Class IRI="#Librería"/>
+        <Class IRI="#Perfumería"/>
+        <Class IRI="#Quiosco"/>
+        <Class IRI="#Tienda_de_accesorios_y_complementos"/>
+        <Class IRI="#Tienda_de_artesanías"/>
+        <Class IRI="#Tienda_de_modas"/>
+        <Class IRI="#Tienda_de_souvenirs"/>
+        <Class IRI="#Tienda_de_telefonía"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bingo"/>
+        <Class IRI="#Casino"/>
+        <Class IRI="#Chill_out"/>
+        <Class IRI="#Club_de_playa"/>
+        <Class IRI="#Karaoke"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bolera"/>
+        <Class IRI="#Campo_de_futbol"/>
+        <Class IRI="#Campo_de_golf"/>
+        <Class IRI="#Campo_de_tiro"/>
+        <Class IRI="#Cancha_de_baloncesto"/>
+        <Class IRI="#Centro_de_actividades_multiaventura"/>
+        <Class IRI="#Circuito_de_motos"/>
+        <Class IRI="#Clup_hipico"/>
+        <Class IRI="#Estacion_de_deportes_de_invierno"/>
+        <Class IRI="#Estadio"/>
+        <Class IRI="#Gimnacio"/>
+        <Class IRI="#Hipodromo"/>
+        <Class IRI="#Parque_de_patinaje"/>
+        <Class IRI="#Piscina"/>
+        <Class IRI="#Pista_de_atletismo"/>
+        <Class IRI="#Pista_de_padel"/>
+        <Class IRI="#Pista_de_patinaje"/>
+        <Class IRI="#Pista_de_tenis"/>
+        <Class IRI="#Polideportivo"/>
+        <Class IRI="#Puerto_deportivo"/>
+        <Class IRI="#Rocodromo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cajero_automático"/>
+        <Class IRI="#Casa_de_cambio"/>
+        <Class IRI="#Devolución_de_IVA"/>
+        <Class IRI="#Oficina_bancaria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Campamento"/>
+        <Class IRI="#Centro_de_interpretacion"/>
+        <Class IRI="#Centro_educativo"/>
+        <Class IRI="#Granja_escuela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Consigna_de_equipaje"/>
+        <Class IRI="#Locutorio"/>
+        <Class IRI="#Paquetería_y_mensajería"/>
+        <Class IRI="#Peluquería"/>
+        <Class IRI="#Taller_mecánico"/>
+        <Class IRI="#Tintorería_o_lavandería"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Enoteca"/>
+        <Class IRI="#Mercado_tradicional"/>
+        <Class IRI="#Máquina_expendedora"/>
+        <Class IRI="#Panadería_y_pastelería"/>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#Tienda_de_ultramarinos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Hospital_privado"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria_hotel"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hotel Andinos Plaza Florencia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">336000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria_hotel"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carrera 11 No. 3 - 14, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hotel Gran Estacion Florencia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">82000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyDomain>
+        <DataProperty IRI="#categoria_hotel"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Alojamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Guía_turístico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Negocio_local"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Organización_de_eventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Restauración"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Alojamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Guía_turístico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Instalación_turística_o_vinculada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Intermediario_turístico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Negocio_local"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Organización_de_eventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Restauración"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Transporte_de_viajeros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio_promedio"/>
+        <Class IRI="#Alojamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valoracion"/>
+        <Class IRI="#Alojamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#categoria_hotel"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#direccion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precio_promedio"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valoracion"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

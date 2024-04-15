@@ -1,0 +1,1411 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/andre/ontologies/turismo/oferta#"
+     xml:base="http://www.semanticweb.org/andre/ontologies/turismo/oferta"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns::Oferta="http://www.semanticweb.org/andre/ontologies/turismo/oferta/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Acuario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Acuario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Aerolínea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Aerolínea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes_online -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes_online">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Auditorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Auditorio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Balneario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Balneario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar_de_vinos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar_de_vinos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bazar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bazar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bingo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bingo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bodega -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bodega">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cafetería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cafetería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cajero_automático -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cajero_automático">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_futbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_futbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_golf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_golf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_tiro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_tiro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cancha_de_baloncesto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cancha_de_baloncesto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_cambio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_cambio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_comidas_para_llevar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_comidas_para_llevar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_comercial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_comercial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_actividades_multiaventura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_actividades_multiaventura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_arte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_arte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_interpretacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_interpretacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_masajes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_masajes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_educativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_educativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_estetico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_estetico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cervecería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cervecería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chill_out -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chill_out">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chiringuito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chiringuito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chocolatería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chocolatería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Churrería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Churrería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Circuito_de_motos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Circuito_de_motos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Club_de_playa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Club_de_playa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Clup_hipico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Clup_hipico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coche_compartido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coche_compartido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coctelería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coctelería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Compañía_de_cruceros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Compañía_de_cruceros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Consigna_de_equipaje -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Consigna_de_equipaje">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Devolución_de_IVA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Devolución_de_IVA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_VTC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_VTC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_de_alquiler_de_vehículos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_de_alquiler_de_vehículos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_ferroviaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_ferroviaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Enoteca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Enoteca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estacion_de_deportes_de_invierno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estacion_de_deportes_de_invierno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estadio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estadio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estanco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estanco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Farmacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Farmacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hospital_privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Gimnacio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Gimnacio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Granja_escuela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Granja_escuela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Heladería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Heladería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hipodromo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hipodromo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Horchatería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Horchatería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hospital_privado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hospital_privado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Joyería_y_relojería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Joyería_y_relojería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Juguetería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Juguetería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Karaoke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Karaoke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Librería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Librería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Locutorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Locutorio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Lodge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Lodge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_gastronómico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_gastronómico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_tradicional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_tradicional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mesón -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mesón">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Metabuscador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Metabuscador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Micromovilidad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Micromovilidad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Motel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Motel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Museo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Museo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Máquina_expendedora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Máquina_expendedora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Oficina_bancaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Oficina_bancaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_autocares -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_autocares">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_ferrys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_ferrys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_receptivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_receptivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Palacio_o_centro_de_congresos_y_exposiciones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Palacio_o_centro_de_congresos_y_exposiciones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Panadería_y_pastelería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Panadería_y_pastelería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Paquetería_y_mensajería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Paquetería_y_mensajería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_atracciones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_atracciones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_patinaje -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_patinaje">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_infantil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_infantil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Peluquería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Peluquería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pensión -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pensión">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Perfumería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Perfumería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Piscina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Piscina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_atletismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_atletismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_padel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_padel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_patinaje -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_patinaje">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_tenis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_tenis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Planetario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Planetario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Polideportivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Polideportivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Puerto_deportivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Puerto_deportivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Quiosco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Quiosco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Residencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Residencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restaurante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restaurante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Rocodromo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Rocodromo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_conciertos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_conciertos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_exposiciones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_exposiciones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salon_recreativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salon_recreativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sidrería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sidrería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sistema_de_distribución_global -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sistema_de_distribución_global">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Spa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Spa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Supermercado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Supermercado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taberna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taberna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taller_mecánico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taller_mecánico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Teatro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Teatro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tetería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tetería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_accesorios_y_complementos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_accesorios_y_complementos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_artesanías -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_artesanías">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_modas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_modas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_souvenirs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_souvenirs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_telefonía -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_telefonía">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_ultramarinos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_ultramarinos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tintorería_o_lavandería -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tintorería_o_lavandería">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Turoperador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Turoperador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Vivienda_de_uso_turístico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Vivienda_de_uso_turístico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Viñero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Viñero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Zoologico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Zoologico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Acuario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bodega"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_arte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Museo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_atracciones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_infantil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Planetario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_exposiciones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salon_recreativo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Teatro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Viñero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Zoologico"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Aerolínea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coche_compartido"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Compañía_de_cruceros"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_VTC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_de_alquiler_de_vehículos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Empresa_ferroviaria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Micromovilidad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_autocares"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_de_ferrys"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Agencia_de_viajes_online"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Metabuscador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Operador_receptivo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sistema_de_distribución_global"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Turoperador"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Lodge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Motel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pensión"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Residencia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Vivienda_de_uso_turístico"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Asistencia_a_eventos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Deporte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Educación"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Fiesta_y_entretenimiento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Ocio_y_cultura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Salud_y_bienestar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Auditorio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Palacio_o_centro_de_congresos_y_exposiciones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sala_de_conciertos"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Balneario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_masajes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_estetico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Spa"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bar_de_vinos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cafetería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_comidas_para_llevar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cervecería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chiringuito"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chocolatería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Churrería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Coctelería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Heladería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Horchatería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_gastronómico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mesón"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restaurante"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Sidrería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taberna"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tetería"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bazar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_comercial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estanco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Joyería_y_relojería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Juguetería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Librería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Perfumería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Quiosco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_accesorios_y_complementos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_artesanías"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_modas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_souvenirs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_telefonía"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bingo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casino"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Chill_out"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Club_de_playa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Karaoke"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_futbol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_golf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campo_de_tiro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cancha_de_baloncesto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_actividades_multiaventura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Circuito_de_motos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Clup_hipico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estacion_de_deportes_de_invierno"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Estadio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Gimnacio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hipodromo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Parque_de_patinaje"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Piscina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_atletismo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_padel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_patinaje"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pista_de_tenis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Polideportivo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Puerto_deportivo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Rocodromo"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Cajero_automático"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_de_cambio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Devolución_de_IVA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Oficina_bancaria"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Campamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_de_interpretacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Centro_educativo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Granja_escuela"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Consigna_de_equipaje"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Locutorio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Paquetería_y_mensajería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Peluquería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Taller_mecánico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tintorería_o_lavandería"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Enoteca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Mercado_tradicional"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Máquina_expendedora"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Panadería_y_pastelería"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Supermercado"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Tienda_de_ultramarinos"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
