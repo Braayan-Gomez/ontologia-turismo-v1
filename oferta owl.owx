@@ -14,6 +14,9 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name=":Oferta" IRI="http://www.semanticweb.org/andre/ontologies/turismo/oferta/"/>
     <Declaration>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Deporte"/>
     </Declaration>
     <Declaration>
@@ -68,6 +71,9 @@
         <Class IRI="#Lodge"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Instalación_turística_o_vinculada"/>
     </Declaration>
     <Declaration>
@@ -102,6 +108,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Palacio_o_centro_de_congresos_y_exposiciones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Campo_de_golf"/>
@@ -152,6 +161,9 @@
         <Class IRI="#Rocodromo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cervecería"/>
     </Declaration>
     <Declaration>
@@ -191,10 +203,16 @@
         <Class IRI="#Parque_infantil"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Gimnacio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Intermediario_turístico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numero_de_apartamentos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Alojamiento"/>
@@ -204,6 +222,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Campamento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#servicio_de_camping"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Centro_de_interpretacion"/>
@@ -237,6 +258,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Taller_mecánico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Educación"/>
@@ -290,6 +314,12 @@
         <Class IRI="#Albergue"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo_habitracion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Casa_de_cambio"/>
     </Declaration>
     <Declaration>
@@ -335,10 +365,19 @@
         <Class IRI="#Tienda_de_accesorios_y_complementos"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Parque_de_atracciones"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Oficina_bancaria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo_parcela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Operador_de_autocares"/>
@@ -362,6 +401,9 @@
         <Class IRI="#Polideportivo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Museo"/>
     </Declaration>
     <Declaration>
@@ -372,6 +414,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Metabuscador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#instalaciones_comunes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chill_out"/>
@@ -419,6 +464,9 @@
         <Class IRI="#Tintorería_o_lavandería"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Agencia_de_viajes_online"/>
     </Declaration>
     <Declaration>
@@ -431,6 +479,12 @@
         <Class IRI="#Pub"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Karaoke"/>
     </Declaration>
     <Declaration>
@@ -438,6 +492,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Residencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sala_de_exposiciones"/>
@@ -468,6 +525,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Piscina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Acuario"/>
@@ -1174,13 +1234,519 @@
         <Class IRI="#Hospital_privado"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#Albergue"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Albergue"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Albergue"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Albergue"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartahotel"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartahotel"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartahotel"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartahotel"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Camping"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Camping"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Camping"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Camping"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Hotel"/>
         <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
         <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
     </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 8, Zona Cafetera, Armenia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">area de amacas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cocina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Albergue Camino del Café</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compartido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">privado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carrera 10, Playa Blanca, Cartagena, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">area de descanso al aire libre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cocina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sala de TV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Albergue Costa del Caribe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">85000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compartido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">privado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vereda La Montaña, Sierra Nevada, Santa Marta, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cocina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">zona de camping</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Albergue EcoAlbergue Sierra Verde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compartido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 45, Barrio Andino, Bogotá, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">area de juegos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cocina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sala de estar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Albergue Villa Andina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compartido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">privado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Albergue_Villa_Andina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 8, Centro Histórico, Cartagena, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Apartahotel Centro Histórico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">400000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cada tres dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Apartahotel_Centro_Histórico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carrera 20, Barrio El Bosque, Medellín, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Apartahotel Montaña Azul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">diaro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Apartahotel_Montaña_Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 5, Playa Dorada, Santa Marta, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Apartahotel Playa Dorada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cada dos dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Apartahotel_Playa_Dorada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carrera 30, Valle Verde, Bogotá, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Apartahotel Valle Verde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cada dos dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Apartahotel_Valle_Verde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carretera del Bosque, Reserva Natural Los Guaduales, Ibague, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Camping Bosque Encantado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baños</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_parcela"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tiendas de campaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Camping_Bosque_Encantado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kilómetro 10, Vía al Nevado, Salento, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Camping El Bosque Aventurero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baños</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">duchas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">puntos de electricidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_parcela"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tiendas de campaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Camping_El_Bosque_Aventurero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kilómetro 20, Vía a la Costa, Tolu, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Camping Playa Escondida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baños</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">duchas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_parcela"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tiendas de campaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Camping_Playa_Escondida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vereda La Cascada, Sierra Nevada, Santa Marta, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Camping Río de la Montaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baños</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">puntos de electricidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo_parcela"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tiendas de campaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Camping_Río_de_la_Montaña"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria_hotel"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RICAURTE CALLE 22 CARRERA 7 ESQUINA, 180017 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hotel A1 Express</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">230000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Hotel_A1_Express"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#categoria_hotel"/>
         <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
@@ -1204,12 +1770,37 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#valoracion"/>
         <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria_hotel"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Calle 18 No. 9-49, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hotel Caqueta Real HSC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">296000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Hotel_Caqueta_Real_HSC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#categoria_hotel"/>
         <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#direccion"/>
@@ -1229,7 +1820,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#valoracion"/>
         <NamedIndividual IRI="#Hotel_Gran_Estacion_Florencia"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyDomain>
         <DataProperty IRI="#categoria_hotel"/>
@@ -1268,6 +1859,10 @@
         <Class IRI="#Transporte_de_viajeros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <Class IRI="#Albergue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#nombre"/>
         <Class IRI="#Alojamiento"/>
     </DataPropertyDomain>
@@ -1300,8 +1895,28 @@
         <Class IRI="#Transporte_de_viajeros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <Class IRI="#Apartahotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#precio_promedio"/>
         <Class IRI="#Alojamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <Class IRI="#Camping"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <Class IRI="#Apartahotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <Class IRI="#Albergue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo_parcela"/>
+        <Class IRI="#Camping"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#valoracion"/>
@@ -1316,12 +1931,36 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#instalaciones_comunes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#nombre"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#numero_de_apartamentos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#precio_promedio"/>
         <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#servicio_de_camping"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#servicio_de_limpieza"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipo_habitracion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipo_parcela"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#valoracion"/>
