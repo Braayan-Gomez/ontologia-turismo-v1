@@ -2169,6 +2169,27 @@
         <NamedIndividual IRI="#Bolera_1"/>
         <Literal>Bolera 1</Literal>
     </DataPropertyAssertion>
+
+
+<Declaration>
+        <NamedIndividual IRI="#Bolera_2"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Bolera"/>
+        <NamedIndividual IRI="#Bolera_2"/>
+    </ClassAssertion>
+      <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Bolera_2"/>
+        <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+     <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Bolera_2"/>
+        <Literal>Bolera 2</Literal>
+    </DataPropertyAssertion>
+
    
 
 <!--  -->
