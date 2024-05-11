@@ -1,13 +1,204 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/andre/ontologies/turismo/oferta#"
+<rdf:RDF xmlns="http://www.semanticweb.org/andre/ontologies/turismo/oferta"
      xml:base="http://www.semanticweb.org/andre/ontologies/turismo/oferta"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:oferta="http://www.semanticweb.org/andre/ontologies/turismo/oferta#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns::Oferta="http://www.semanticweb.org/andre/ontologies/turismo/oferta/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_alojamiento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_alojamiento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#categoria_hotel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#categoria_hotel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#comidas_disponibles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#comidas_disponibles">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#direccion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#direccion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#experiencias_unicas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#experiencias_unicas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#instalaciones_comunes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#instalaciones_comunes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#instalaciones_exteriores -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#instalaciones_exteriores">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#nombre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#numero_de_apartamentos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#numero_de_apartamentos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#numero_de_habitaciones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#numero_de_habitaciones">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#precio_promedio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#precio_promedio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_de_camping -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_de_camping">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_de_limpieza -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_de_limpieza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_disponible -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#servicio_disponible">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_habitacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_habitacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_parcela -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#tipo_parcela">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#valoracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#valoracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -1170,6 +1361,552 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Camino_del_Café -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Camino_del_Café">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <oferta:direccion>Calle 8, Zona Cafetera, Armenia, Colombia</oferta:direccion>
+        <oferta:instalaciones_comunes>area de amacas</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>cocina</oferta:instalaciones_comunes>
+        <oferta:nombre>Albergue Camino del Café</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90000</oferta:precio_promedio>
+        <oferta:tipo_habitacion>compartido</oferta:tipo_habitacion>
+        <oferta:tipo_habitacion>privado</oferta:tipo_habitacion>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Costa_del_Caribe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Costa_del_Caribe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <oferta:direccion>Carrera 10, Playa Blanca, Cartagena, Colombia</oferta:direccion>
+        <oferta:instalaciones_comunes>area de descanso al aire libre</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>cocina</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>sala de TV</oferta:instalaciones_comunes>
+        <oferta:nombre>Albergue Costa del Caribe</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85000</oferta:precio_promedio>
+        <oferta:tipo_habitacion>compartido</oferta:tipo_habitacion>
+        <oferta:tipo_habitacion>privado</oferta:tipo_habitacion>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_EcoAlbergue_Sierra_Verde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_EcoAlbergue_Sierra_Verde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <oferta:direccion>Vereda La Montaña, Sierra Nevada, Santa Marta, Colombia</oferta:direccion>
+        <oferta:instalaciones_comunes>cocina</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>zona de camping</oferta:instalaciones_comunes>
+        <oferta:nombre>Albergue EcoAlbergue Sierra Verde</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000</oferta:precio_promedio>
+        <oferta:tipo_habitacion>compartido</oferta:tipo_habitacion>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Villa_Andina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue_Villa_Andina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
+        <oferta:direccion>Calle 45, Barrio Andino, Bogotá, Colombia</oferta:direccion>
+        <oferta:instalaciones_comunes>area de juegos</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>cocina</oferta:instalaciones_comunes>
+        <oferta:instalaciones_comunes>sala de estar</oferta:instalaciones_comunes>
+        <oferta:nombre>Albergue Villa Andina</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80000</oferta:precio_promedio>
+        <oferta:tipo_habitacion>compartido</oferta:tipo_habitacion>
+        <oferta:tipo_habitacion>privado</oferta:tipo_habitacion>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Centro_Histórico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Centro_Histórico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <oferta:direccion>Calle 8, Centro Histórico, Cartagena, Colombia</oferta:direccion>
+        <oferta:nombre>Apartahotel Centro Histórico</oferta:nombre>
+        <oferta:numero_de_apartamentos rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</oferta:numero_de_apartamentos>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">400000</oferta:precio_promedio>
+        <oferta:servicio_de_limpieza>cada tres dias</oferta:servicio_de_limpieza>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Montaña_Azul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Montaña_Azul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <oferta:direccion>Carrera 20, Barrio El Bosque, Medellín, Colombia</oferta:direccion>
+        <oferta:nombre>Apartahotel Montaña Azul</oferta:nombre>
+        <oferta:numero_de_apartamentos rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</oferta:numero_de_apartamentos>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200000</oferta:precio_promedio>
+        <oferta:servicio_de_limpieza>diaro</oferta:servicio_de_limpieza>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Playa_Dorada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Playa_Dorada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <oferta:direccion>Calle 5, Playa Dorada, Santa Marta, Colombia</oferta:direccion>
+        <oferta:nombre>Apartahotel Playa Dorada</oferta:nombre>
+        <oferta:numero_de_apartamentos rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</oferta:numero_de_apartamentos>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300000</oferta:precio_promedio>
+        <oferta:servicio_de_limpieza>cada dos dias</oferta:servicio_de_limpieza>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Valle_Verde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel_Valle_Verde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
+        <oferta:direccion>Carrera 30, Valle Verde, Bogotá, Colombia</oferta:direccion>
+        <oferta:nombre>Apartahotel Valle Verde</oferta:nombre>
+        <oferta:numero_de_apartamentos rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</oferta:numero_de_apartamentos>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200000</oferta:precio_promedio>
+        <oferta:servicio_de_limpieza>cada dos dias</oferta:servicio_de_limpieza>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Bolera"/>
+        <oferta:direccion>Calle 18 9 - 07, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Bolera 1</oferta:nombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Bosque_Encantado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Bosque_Encantado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <oferta:direccion>Carretera del Bosque, Reserva Natural Los Guaduales, Ibague, Colombia</oferta:direccion>
+        <oferta:nombre>Camping Bosque Encantado</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30000</oferta:precio_promedio>
+        <oferta:servicio_de_camping>baños</oferta:servicio_de_camping>
+        <oferta:tipo_parcela>tiendas de campaña</oferta:tipo_parcela>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_El_Bosque_Aventurero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_El_Bosque_Aventurero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <oferta:direccion>Kilómetro 10, Vía al Nevado, Salento, Colombia</oferta:direccion>
+        <oferta:nombre>Camping El Bosque Aventurero</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40000</oferta:precio_promedio>
+        <oferta:servicio_de_camping>baños</oferta:servicio_de_camping>
+        <oferta:servicio_de_camping>duchas</oferta:servicio_de_camping>
+        <oferta:servicio_de_camping>puntos de electricidad</oferta:servicio_de_camping>
+        <oferta:tipo_parcela>tiendas de campaña</oferta:tipo_parcela>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Playa_Escondida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Playa_Escondida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <oferta:direccion>Kilómetro 20, Vía a la Costa, Tolu, Colombia</oferta:direccion>
+        <oferta:nombre>Camping Playa Escondida</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30000</oferta:precio_promedio>
+        <oferta:servicio_de_camping>baños</oferta:servicio_de_camping>
+        <oferta:servicio_de_camping>duchas</oferta:servicio_de_camping>
+        <oferta:tipo_parcela>tiendas de campaña</oferta:tipo_parcela>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Río_de_la_Montaña -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping_Río_de_la_Montaña">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
+        <oferta:direccion>Vereda La Cascada, Sierra Nevada, Santa Marta, Colombia</oferta:direccion>
+        <oferta:nombre>Camping Río de la Montaña</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80000</oferta:precio_promedio>
+        <oferta:servicio_de_camping>baños</oferta:servicio_de_camping>
+        <oferta:servicio_de_camping>puntos de electricidad</oferta:servicio_de_camping>
+        <oferta:tipo_parcela>tiendas de campaña</oferta:tipo_parcela>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Cabaña_El_Refugio_del_Bosque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Cabaña_El_Refugio_del_Bosque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <oferta:direccion>Km 5 Vía Santa Marta - Minca, Finca El Refugio, Minca, Colombia</oferta:direccion>
+        <oferta:instalaciones_exteriores>Hamacas, Mirador Natural</oferta:instalaciones_exteriores>
+        <oferta:nombre>Cabaña El Refugio del Bosque</oferta:nombre>
+        <oferta:numero_de_habitaciones rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</oferta:numero_de_habitaciones>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Casa_Campestre_El_Paraiso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Casa_Campestre_El_Paraiso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <oferta:direccion>Km 10 Vía Pereira - Manizales, Finca El Paraíso, Pereira, Colombia</oferta:direccion>
+        <oferta:instalaciones_exteriores>Jardín, Cancha de Tenis</oferta:instalaciones_exteriores>
+        <oferta:nombre>Casa Campestre El Paraíso</oferta:nombre>
+        <oferta:numero_de_habitaciones rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</oferta:numero_de_habitaciones>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Finca_La_Esperanza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Finca_La_Esperanza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <oferta:direccion> Vereda La Tranquilidad, Calle 20, Armenia, Colombia</oferta:direccion>
+        <oferta:instalaciones_exteriores>Casa rural Finca La Esperanza</oferta:instalaciones_exteriores>
+        <oferta:nombre>Finca La Esperanza</oferta:nombre>
+        <oferta:numero_de_habitaciones rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</oferta:numero_de_habitaciones>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Finca_La_Tranquilidad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Finca_La_Tranquilidad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <oferta:direccion>Vereda El Descanso, Finca La Tranquilidad, San Gil, Colombia</oferta:direccion>
+        <oferta:instalaciones_exteriores>Piscina Natural, Zona de Fogata</oferta:instalaciones_exteriores>
+        <oferta:nombre>Finca La Tranquilidad</oferta:nombre>
+        <oferta:numero_de_habitaciones rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</oferta:numero_de_habitaciones>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Hacienda_Vista_Hermosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural_Hacienda_Vista_Hermosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
+        <oferta:direccion>Vereda La Cabaña, Finca Vista Hermosa, Villa de Leyva, Colombia</oferta:direccion>
+        <oferta:instalaciones_exteriores>Terraza con Vista Panorámica, Senderos Ecológicos</oferta:instalaciones_exteriores>
+        <oferta:nombre>Hacienda Vista Hermosa</oferta:nombre>
+        <oferta:numero_de_habitaciones rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</oferta:numero_de_habitaciones>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Casa_de_Playa_La_Perla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Casa_de_Playa_La_Perla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <oferta:tipo_alojamiento rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia"/>
+        <oferta:direccion>Playa La Perla, San Andrés, Colombia</oferta:direccion>
+        <oferta:nombre>Casa de Playa La Perla</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Eco_Hotel_Bosque_Encantado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Eco_Hotel_Bosque_Encantado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <oferta:direccion>Vereda El Silencio, Reserva Natural Bosque Encantado, San Andrés, Colombia</oferta:direccion>
+        <oferta:nombre>Eco Hotel Bosque Encantado</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">250000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Hotel_de_Montaña_La_Cima -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Hotel_de_Montaña_La_Cima">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <oferta:direccion>Carretera Panamericana, Kilómetro 20, Montañas del Quindío, Armenia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel de Montaña La Cima</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Posada_de_Campo_El_Encanto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Posada_de_Campo_El_Encanto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <oferta:direccion>Vereda El Paraíso, Finca El Encanto, Boyacá, Colombia</oferta:direccion>
+        <oferta:nombre>Posada de Campo El Encanto</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Resort_Playa_del_Sol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico_Resort_Playa_del_Sol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
+        <oferta:direccion>Km 15 Vía Cartagena - Barú, Islas del Rosario, Cartagena, Colombia</oferta:direccion>
+        <oferta:nombre>Resort Playa del Sol</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Eco_Glamping_Laguna_Azul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Eco_Glamping_Laguna_Azul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <oferta:direccion>Laguna Azul, Amazonas, Colombia</oferta:direccion>
+        <oferta:experiencias_unicas>Avistamiento de Delfines Rosados, Pesca de Pirarucú</oferta:experiencias_unicas>
+        <oferta:nombre>Eco Glamping Laguna Azul</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300000</oferta:precio_promedio>
+        <oferta:servicio_disponible>Bar-Restaurante, Excursiones por la Selva Amazónica</oferta:servicio_disponible>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Eco_Glamping_Selva_Azul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Eco_Glamping_Selva_Azul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <oferta:direccion>Carretera Ecológica, Km 10, Bosque Selva Azul, Santa Marta, Colombia</oferta:direccion>
+        <oferta:experiencias_unicas>Observación de Aves, Senderismo Nocturno</oferta:experiencias_unicas>
+        <oferta:nombre>Eco Glamping Selva Azul</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200000</oferta:precio_promedio>
+        <oferta:servicio_disponible>Cocina Compartida, Excursiones Guiadas</oferta:servicio_disponible>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Lujo_en_los_Andes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Lujo_en_los_Andes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <oferta:direccion>Carretera Panamericana, Km 50, Valle de los Andes, Manizales, Colombia</oferta:direccion>
+        <oferta:experiencias_unicas>Observatorio Astronómico, Degustación de Vinos</oferta:experiencias_unicas>
+        <oferta:nombre>Glamping Lujo en los Andes</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">350000</oferta:precio_promedio>
+        <oferta:servicio_disponible>Concierge 24/7, Spa Privado</oferta:servicio_disponible>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Oasis_del_Desierto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Oasis_del_Desierto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <oferta:direccion>Desierto de La Tatacoa, Huila, Colombia</oferta:direccion>
+        <oferta:experiencias_unicas>Observación de Estrellas, Caminatas Nocturnas</oferta:experiencias_unicas>
+        <oferta:nombre>Glamping Oasis del Desierto</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180000</oferta:precio_promedio>
+        <oferta:servicio_disponible>Bar-Restaurante, Excursiones Guiadas por el Desierto</oferta:servicio_disponible>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Playa_Dorada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping_Glamping_Playa_Dorada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
+        <oferta:direccion>Playa Dorada, Guajira, Colombia</oferta:direccion>
+        <oferta:experiencias_unicas>Paseos en Barco, Observación de Tortugas Marinas</oferta:experiencias_unicas>
+        <oferta:nombre>Glamping Playa Dorada</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">250000</oferta:precio_promedio>
+        <oferta:servicio_disponible>Cocina Compartida, Alquiler de Equipos Acuáticos</oferta:servicio_disponible>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_Brisas_del_Mar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_Brisas_del_Mar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <oferta:comidas_disponibles>Desayuno</oferta:comidas_disponibles>
+        <oferta:direccion>Carrera 20, Barrio Brisas del Mar, Santa Marta, Colombia</oferta:direccion>
+        <oferta:nombre>Hostal Brisas del Mar</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_El_Descanso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_El_Descanso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <oferta:comidas_disponibles>Desayuno, Almuerzo, Cena</oferta:comidas_disponibles>
+        <oferta:direccion>Calle 10, Barrio Centro, Bogotá, Colombia</oferta:direccion>
+        <oferta:nombre>Hostal El Descanso</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_El_Mirador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_El_Mirador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <oferta:comidas_disponibles>Desayuno, Almuerzo, Cena</oferta:comidas_disponibles>
+        <oferta:direccion>Av. Bolívar, Barrio El Mirador, Cali, Colombia</oferta:direccion>
+        <oferta:nombre>Hostal El Mirador</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_La_Libertad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_La_Libertad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <oferta:comidas_disponibles>Desayuno, Cena</oferta:comidas_disponibles>
+        <oferta:direccion>Carrera 15, Barrio La Libertad, Cartagena, Colombia</oferta:direccion>
+        <oferta:nombre>Hostal La Libertad</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_Los_Amigos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal_Hostal_Los_Amigos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
+        <oferta:comidas_disponibles>Desayuno, Almuerzo</oferta:comidas_disponibles>
+        <oferta:direccion>Calle 6, Barrio El Prado, Medellín, Colombia</oferta:direccion>
+        <oferta:nombre>Hostal Los Amigos</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_A1_Express -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_A1_Express">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</oferta:categoria_hotel>
+        <oferta:direccion>RICAURTE CALLE 22 CARRERA 7 ESQUINA, 180017 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel A1 Express</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">230000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</oferta:categoria_hotel>
+        <oferta:direccion>Calle 18 9 - 07, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel Andinos Plaza Florencia</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</oferta:categoria_hotel>
+        <oferta:direccion>Calle 18 9 - 07, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel Andinos Plaza Florencia 2</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Andinos_Plaza_Florencia3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</oferta:categoria_hotel>
+        <oferta:direccion>Calle 18 9 - 07, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel Andinos Plaza Florencia 3</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">336000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Caqueta_Real_HSC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Caqueta_Real_HSC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</oferta:categoria_hotel>
+        <oferta:direccion>Calle 18 No. 9-49, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel Caqueta Real HSC</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Gran_Estacion_Florencia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel_Gran_Estacion_Florencia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
+        <oferta:categoria_hotel rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</oferta:categoria_hotel>
+        <oferta:direccion>Carrera 11 No. 3 - 14, 180001 Florencia, Colombia</oferta:direccion>
+        <oferta:nombre>Hotel Gran Estacion Florencia</oferta:nombre>
+        <oferta:precio_promedio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">82000</oferta:precio_promedio>
+        <oferta:valoracion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</oferta:valoracion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1220,42 +1957,11 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Albergue"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Apartahotel"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Camping"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Casa_rural"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Complejo_turístico"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Glamping"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hostal"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Hotel"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Lodge"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Motel"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Pensión"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Residencia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Vivienda_de_uso_turístico"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alimentacion"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Comercion_y_moda"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_financiero"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicio_médico"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Servicios_varios"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Alojamiento"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Guía_turístico"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Instalación_turística_o_vinculada"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Intermediario_turístico"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Negocio_local"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Organización_de_eventos"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Restauración"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/turismo/oferta#Transporte_de_viajeros"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -1407,5 +2113,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 

@@ -115,6 +115,8 @@
     <Declaration>
         <Class IRI="#Centro_de_masajes"/>
     </Declaration>
+
+    
     <Declaration>
         <Class IRI="#Centro_educativo"/>
     </Declaration>
@@ -472,8 +474,9 @@
     <Declaration>
         <DataProperty IRI="#servicio_de_limpieza"/>
     </Declaration>
+  
     <Declaration>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#tipo_parcela"/>
@@ -1295,7 +1298,75 @@
 
 
 
+<!-- declaracion de DATAPRROPERTIES nuevas:  -->
 
+<!-- servicio_disponible -->
+   <Declaration>
+        <DataProperty IRI="#servicio_disponible"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#servicio_disponible"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+     <DataPropertyDomain>
+        <DataProperty IRI="#servicio_disponible"/>
+        <Class IRI="#Glamping"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicio_disponible"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+<!-- numero_de_habitaciones -->
+   <Declaration>
+        <DataProperty IRI="#numero_de_habitaciones"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#numero_de_habitaciones"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+     <DataPropertyDomain>
+        <DataProperty IRI="#numero_de_habitaciones"/>
+        <Class IRI="#Casa_rural"/>
+    </DataPropertyDomain>
+<!-- instalaciones_exteriores -->
+   <Declaration>
+        <DataProperty IRI="#instalaciones_exteriores"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#instalaciones_exteriores"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+     <DataPropertyDomain>
+        <DataProperty IRI="#instalaciones_exteriores"/>
+        <Class IRI="#Casa_rural"/>
+    </DataPropertyDomain>
+    
+
+   <!-- experiencias_unicas  -->
+   <Declaration>
+        <DataProperty IRI="#experiencias_unicas"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#experiencias_unicas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+     <DataPropertyDomain>
+        <DataProperty IRI="#experiencias_unicas"/>
+        <Class IRI="#Glamping"/>
+    </DataPropertyDomain>
+
+<!-- Servicios de comidas disponibles  -->
+<Declaration>
+        <DataProperty IRI="#comidas_disponibles"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#comidas_disponibles"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+     <DataPropertyDomain>
+        <DataProperty IRI="#comidas_disponibles"/>
+        <Class IRI="#Hostal"/>
+    </DataPropertyDomain>
 
 <!-- ALOJAMIENTOS -->
 <!-- HOTELES -->
@@ -1371,6 +1442,774 @@
         <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
     </DataPropertyAssertion>
+<!-- HOTEL 3 -->
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+    </ClassAssertion>
+    
+     <DataPropertyAssertion>
+        <DataProperty IRI="#categoria_hotel"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+        <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+        <Literal>Hotel Andinos Plaza Florencia 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">336000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Hotel_Andinos_Plaza_Florencia3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+    </DataPropertyAssertion>
+
+<!-- hasta este punto ya se han creado HOTELES, ALBERGUES, APARTAHOTEL Y CAMPING  -->
+<!-- casas rurales -->
+<!-- CASA RURAL 1 -->
+    <Declaration>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Casa_rural"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal> Vereda La Tranquilidad, Calle 20, Armenia, Colombia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal>Finca La Esperanza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio_promedio"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valoracion"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero_de_habitaciones"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#instalaciones_exteriores"/>
+        <NamedIndividual IRI="#Casa_rural_Finca_La_Esperanza"/>
+        <Literal>Casa rural Finca La Esperanza</Literal>
+    </DataPropertyAssertion>
+
+<!-- CASA RURAL 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_rural"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal>Km 10 Vía Pereira - Manizales, Finca El Paraíso, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal>Casa Campestre El Paraíso</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#numero_de_habitaciones"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#instalaciones_exteriores"/>
+    <NamedIndividual IRI="#Casa_rural_Casa_Campestre_El_Paraiso"/>
+    <Literal>Jardín, Cancha de Tenis</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA RURAL 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_rural"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal>Vereda La Cabaña, Finca Vista Hermosa, Villa de Leyva, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal>Hacienda Vista Hermosa</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">180000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#numero_de_habitaciones"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#instalaciones_exteriores"/>
+    <NamedIndividual IRI="#Casa_rural_Hacienda_Vista_Hermosa"/>
+    <Literal>Terraza con Vista Panorámica, Senderos Ecológicos</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA RURAL 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_rural"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal>Km 5 Vía Santa Marta - Minca, Finca El Refugio, Minca, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal>Cabaña El Refugio del Bosque</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">120000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#numero_de_habitaciones"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#instalaciones_exteriores"/>
+    <NamedIndividual IRI="#Casa_rural_Cabaña_El_Refugio_del_Bosque"/>
+    <Literal>Hamacas, Mirador Natural</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA RURAL 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_rural"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal>Vereda El Descanso, Finca La Tranquilidad, San Gil, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal>Finca La Tranquilidad</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">170000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#numero_de_habitaciones"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#instalaciones_exteriores"/>
+    <NamedIndividual IRI="#Casa_rural_Finca_La_Tranquilidad"/>
+    <Literal>Piscina Natural, Zona de Fogata</Literal>
+</DataPropertyAssertion>
+
+<!-- COMPLEJOS TURISTICOS -->
+<!-- COMPLEJO TURISTICO 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Complejo_turístico"/>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+    <Literal>Km 15 Vía Cartagena - Barú, Islas del Rosario, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+    <Literal>Resort Playa del Sol</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Resort_Playa_del_Sol"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- COMPLEJO TURISTICO 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Complejo_turístico"/>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+    <Literal>Vereda El Silencio, Reserva Natural Bosque Encantado, San Andrés, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+    <Literal>Eco Hotel Bosque Encantado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">250000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Eco_Hotel_Bosque_Encantado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- COMPLEJO TURISTICO 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Complejo_turístico"/>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+    <Literal>Carretera Panamericana, Kilómetro 20, Montañas del Quindío, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+    <Literal>Hotel de Montaña La Cima</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">180000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Hotel_de_Montaña_La_Cima"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- COMPLEJO TURISTICO 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+</Declaration>
+<ClassAssertion>
+    <Class IRI="#Complejo_turístico"/>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+    <Literal>Vereda El Paraíso, Finca El Encanto, Boyacá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+    <Literal>Posada de Campo El Encanto</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Posada_de_Campo_El_Encanto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+
+<!-- COMPLEJO TURISTICO 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Complejo_turístico"/>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+    <Literal>Playa La Perla, San Andrés, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+    <Literal>Casa de Playa La Perla</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">280000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Complejo_turístico_Casa_de_Playa_La_Perla"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- GLAMPINGS -->
+<!-- GLAMPING 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Glamping"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal>Carretera Ecológica, Km 10, Bosque Selva Azul, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal>Eco Glamping Selva Azul</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_disponible"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal>Cocina Compartida, Excursiones Guiadas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#experiencias_unicas"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Selva_Azul"/>
+    <Literal>Observación de Aves, Senderismo Nocturno</Literal>
+</DataPropertyAssertion>
+
+<!-- GLAMPING 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Glamping"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal>Carretera Panamericana, Km 50, Valle de los Andes, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal>Glamping Lujo en los Andes</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">350000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_disponible"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal>Concierge 24/7, Spa Privado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#experiencias_unicas"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Lujo_en_los_Andes"/>
+    <Literal>Observatorio Astronómico, Degustación de Vinos</Literal>
+</DataPropertyAssertion>
+
+<!-- GLAMPING 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Glamping"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal>Playa Dorada, Guajira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal>Glamping Playa Dorada</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">250000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_disponible"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal>Cocina Compartida, Alquiler de Equipos Acuáticos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#experiencias_unicas"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Playa_Dorada"/>
+    <Literal>Paseos en Barco, Observación de Tortugas Marinas</Literal>
+</DataPropertyAssertion>
+
+<!-- GLAMPING 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Glamping"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal>Desierto de La Tatacoa, Huila, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal>Glamping Oasis del Desierto</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">180000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_disponible"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal>Bar-Restaurante, Excursiones Guiadas por el Desierto</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#experiencias_unicas"/>
+    <NamedIndividual IRI="#Glamping_Glamping_Oasis_del_Desierto"/>
+    <Literal>Observación de Estrellas, Caminatas Nocturnas</Literal>
+</DataPropertyAssertion>
+
+<!-- GLAMPING 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Glamping"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal>Laguna Azul, Amazonas, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal>Eco Glamping Laguna Azul</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_disponible"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal>Bar-Restaurante, Excursiones por la Selva Amazónica</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#experiencias_unicas"/>
+    <NamedIndividual IRI="#Glamping_Eco_Glamping_Laguna_Azul"/>
+    <Literal>Avistamiento de Delfines Rosados, Pesca de Pirarucú</Literal>
+</DataPropertyAssertion>
+
+<!-- HOSTAL -->
+<!-- HOSTAL 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Hostal"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+    <Literal>Calle 10, Barrio Centro, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+    <Literal>Hostal El Descanso</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#comidas_disponibles"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Descanso"/>
+    <Literal>Desayuno, Almuerzo, Cena</Literal>
+</DataPropertyAssertion>
+
+<!-- HOSTAL 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+</Declaration>
+<ClassAssertion>
+    <Class IRI="#Hostal"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+    <Literal>Calle 6, Barrio El Prado, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+    <Literal>Hostal Los Amigos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#comidas_disponibles"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Los_Amigos"/>
+    <Literal>Desayuno, Almuerzo</Literal>
+</DataPropertyAssertion>
+
+<!-- HOSTAL 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Hostal"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+    <Literal>Carrera 15, Barrio La Libertad, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+    <Literal>Hostal La Libertad</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#comidas_disponibles"/>
+    <NamedIndividual IRI="#Hostal_Hostal_La_Libertad"/>
+    <Literal>Desayuno, Cena</Literal>
+</DataPropertyAssertion>
+
+<!-- HOSTAL 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Hostal"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+    <Literal>Av. Bolívar, Barrio El Mirador, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+    <Literal>Hostal El Mirador</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#comidas_disponibles"/>
+    <NamedIndividual IRI="#Hostal_Hostal_El_Mirador"/>
+    <Literal>Desayuno, Almuerzo, Cena</Literal>
+</DataPropertyAssertion>
+
+
+<!-- HOSTAL 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Hostal"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+    <Literal>Carrera 20, Barrio Brisas del Mar, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+    <Literal>Hostal Brisas del Mar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45000</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#comidas_disponibles"/>
+    <NamedIndividual IRI="#Hostal_Hostal_Brisas_del_Mar"/>
+    <Literal>Desayuno</Literal>
+</DataPropertyAssertion>
+
+
 
 <!--  -->
 
@@ -1449,12 +2288,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
         <Literal>compartido</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
         <Literal>privado</Literal>
     </DataPropertyAssertion>
@@ -1494,12 +2333,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">85000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
         <Literal>compartido</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Costa_del_Caribe"/>
         <Literal>privado</Literal>
     </DataPropertyAssertion>
@@ -1534,7 +2373,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_EcoAlbergue_Sierra_Verde"/>
         <Literal>compartido</Literal>
     </DataPropertyAssertion>
@@ -1574,12 +2413,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Villa_Andina"/>
         <Literal>compartido</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <NamedIndividual IRI="#Albergue_Villa_Andina"/>
         <Literal>privado</Literal>
     </DataPropertyAssertion>
@@ -2012,8 +2851,9 @@
         <DataProperty IRI="#servicio_de_limpieza"/>
         <Class IRI="#Apartahotel"/>
     </DataPropertyDomain>
+  
     <DataPropertyDomain>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <Class IRI="#Albergue"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -2056,8 +2896,9 @@
         <DataProperty IRI="#servicio_de_limpieza"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+   
     <DataPropertyRange>
-        <DataProperty IRI="#tipo_habitracion"/>
+        <DataProperty IRI="#tipo_habitacion"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
