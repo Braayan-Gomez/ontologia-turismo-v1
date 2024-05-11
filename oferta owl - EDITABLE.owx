@@ -1376,7 +1376,8 @@
 
 <!-- INSTALACIUON TURISTICA OP VINCULADA -->
 <!-- DEPORTES -->
-<!-- BOLERA -->
+
+<!-- BOLERA 1-->
 
    <Declaration>
         <NamedIndividual IRI="#Bolera_1"/>
@@ -1397,7 +1398,7 @@
         <Literal>Bolera 1</Literal>
     </DataPropertyAssertion>
 
-
+<!-- BOLERA 2-->
 <Declaration>
         <NamedIndividual IRI="#Bolera_2"/>
     </Declaration>
@@ -1417,12 +1418,99 @@
         <Literal>Bolera 2</Literal>
     </DataPropertyAssertion>
 
-   
+    
+<!-- BOLERA 3-->
+    <Declaration>
+        <NamedIndividual IRI="#Bolera_3"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Bolera"/>
+        <NamedIndividual IRI="#Bolera_3"/>
+    </ClassAssertion>
+      <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Bolera_3"/>
+        <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+     <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Bolera_3"/>
+        <Literal>Bolera 3</Literal>
+    </DataPropertyAssertion>
+
+
+<!-- BOLERA 4-->
+<Declaration>
+        <NamedIndividual IRI="#Bolera_4"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Bolera"/>
+        <NamedIndividual IRI="#Bolera_4"/>
+    </ClassAssertion>
+      <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Bolera_4"/>
+        <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+     <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Bolera_4"/>
+        <Literal>Bolera 4</Literal>
+    </DataPropertyAssertion>
+
+
+<!-- BOLERA 5-->
+<Declaration>
+        <NamedIndividual IRI="#Bolera_5"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Bolera"/>
+        <NamedIndividual IRI="#Bolera_5"/>
+    </ClassAssertion>
+      <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Bolera_5"/>
+        <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
+    </DataPropertyAssertion>
+     <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Bolera_5"/>
+        <Literal>Bolera 5</Literal>
+    </DataPropertyAssertion>
 
 <!--  -->
 
+<!--  -->
+
+<!-- INSTALACIUON TURISTICA OP VINCULADA -->
+<!-- DEPORTES -->
+<!-- ESTADIOS -->
+
+<Declaration>
+        <NamedIndividual IRI="Metropolitano Roberto Melendez"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Estadio"/>
+        <NamedIndividual IRI="#Metropolitano Roberto Melendez"/>
+    </ClassAssertion>
+      <DataPropertyAssertion>
+        <DataProperty IRI="#direccion"/>
+        <NamedIndividual IRI="#Metropolitano Roberto Melendez"/>
+        <Literal>Carrera 46 # 49-40 Barranquilla, Atlantico</Literal>
+    </DataPropertyAssertion>
+     <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Metropolitano Roberto Melendez"/>
+        <Literal>Bolera 5</Literal>
+    </DataPropertyAssertion>
 
 
+
+<!--  -->
     <DataPropertyAssertion>
         <DataProperty IRI="#direccion"/>
         <NamedIndividual IRI="#Albergue_Camino_del_Café"/>
