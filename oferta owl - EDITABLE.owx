@@ -2227,6 +2227,7 @@
         <NamedIndividual IRI="#Bolera_el_tesoro"/>
         <Literal>Calle 18 9 - 07, 180001 Florencia, Colombia</Literal>
     </DataPropertyAssertion>
+    
      <DataPropertyAssertion>
         <DataProperty IRI="#nombre"/>
         <NamedIndividual IRI="#Bolera_el_tesoro"/>
