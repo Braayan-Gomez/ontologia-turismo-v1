@@ -1119,7 +1119,7 @@
         <Class IRI="#Centro_estetico"/>
         <Class IRI="#Spa"/>
     </DisjointClasses>
-    <DisjointClasses>
+    <!-- <DisjointClasses>
         <Class IRI="#Bar"/>
         <Class IRI="#Bar_de_vinos"/>
         <Class IRI="#Cafetería"/>
@@ -1138,7 +1138,7 @@
         <Class IRI="#Sidrería"/>
         <Class IRI="#Taberna"/>
         <Class IRI="#Tetería"/>
-    </DisjointClasses>
+    </DisjointClasses> -->
     <DisjointClasses>
         <Class IRI="#Bazar"/>
         <Class IRI="#Centro_comercial"/>
@@ -6122,7 +6122,3794 @@
     <Literal>Nacional: Magdalena, Cundinamarca, Internacional: Italia, Francia</Literal>
 </DataPropertyAssertion>
 
-<!-- BAR VINOS 10 -->
+<!-- CAFETERIA -->
+<DataPropertyDomain>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <Class IRI="#Cafetería"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <Class IRI="#Cafetería"/>
+</DataPropertyDomain>
+
+<!-- CAFETERIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal>Calle Principal #123, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal>Café Aromático</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal>07:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal>Café Espresso, Cappuccino, Café Latte</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
+    <Literal>Agradable, Relajado, Ideal para trabajar</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal>Carrera 50 #789, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal>Dulce Café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal>Café Americano, Mocha, Frappé</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
+    <Literal>Acogedor, Ideal para charlar, Música tranquila</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal>Calle 10 #25-15, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal>Café del Parque</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal>07:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal>Cappuccino, Mocha, Café con canela</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
+    <Literal>Acogedor, con música en vivo los viernes</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal>Carrera 4 #15-10, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal>Espresso Barrio</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal>08:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal>Espresso, Americano, Cappuccino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
+    <Literal>Moderno, con arte local en las paredes</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal>Calle 20 #30-40, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal>Café del Barrio</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal>06:30 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8200.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal>Café negro, Cortado, Café con aroma a vainilla</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
+    <Literal>Rústico, con mesas al aire libre</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal>Carrera 15 #10-25, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal>Café Encantado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal>08:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7800.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal>Café con crema, Café irlandés, Frappé de café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
+    <Literal>Íntimo, con decoración vintage</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal>Calle 12 #8-15, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal>Café Aromático</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal>07:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8800.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal>Café con caramelo, Mocaccino, Café con leche condensada</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
+    <Literal>Acogedor, con mesas junto a la ventana</Literal>
+</DataPropertyAssertion>
+
+<!-- CAFETERIA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal>Calle 7 #3-10, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal>Café del Pueblo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal>08:30 - 18:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7600.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal>Café con almendras, Espresso macchiato, Café helado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
+    <Literal>Relajado, con música de fondo suave</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CAFETERIA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal>Calle 15 #12-30, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal>Café de la Esquina</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal>07:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7800.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal>Café con avellanas, Macchiato, Café frío con menta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
+    <Literal>Acogedor, con mesas pequeñas y decoración minimalista</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CAFETERIA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cafetería"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal>Calle 5 #20-10, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal>Café Colibrí</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal>06:30 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_de_cafe"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal>Café con especias, Latte de coco, Café con canela y miel</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
+    <Literal>Vibrante, con arte local en las paredes y música en vivo los fines de semana</Literal>
+</DataPropertyAssertion>
+
+
+
+<!-- CASA DE COMIDA PARA LLEVAR -->
+
+
+<Declaration>
+    <DataProperty IRI="#menu_del_día"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#menu_del_día"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#menu_del_día"/>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+</DataPropertyDomain>
+<Declaration>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <Datatype abbreviatedIRI="xsd:int"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+</DataPropertyDomain>
+
+<!-- CASA COMIDA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal>Calle 123 #45-67, Barrio Flores, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal>Aromas Colombianos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal>Menú del día: Bandeja paisa, Ajiaco, Jugo natural</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Aromas_Colombianos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal>Carrera 56 #78-90, Barrio Primavera, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal>Sabores Andinos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal>07:30 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal>Menú del día: Arepa de chócolo, Trucha al ajillo, Postre de natilla</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal>Avenida 10 #20-30, Barrio Libertad, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal>Sabores Costeños</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal>Menú del día: Sancocho de pescado, Arroz con coco, Ensalada de frutas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Costenos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal>Diagonal 34 #56-78, Barrio San José, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal>Sabores Antioqueños</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal>07:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal>Menú del día: Bandeja paisa, Ajiaco santafereño, Postre de brevas con arequipe</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Antioqueños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal>Calle 70 #12-34, Barrio Centro, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal>Sabor Criollo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal>08:30 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal>Menú del día: Sancocho de gallina, Arroz con pollo, Tres leches</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabor_Criollo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal>Carrera 23 #45-67, Barrio La Esperanza, Bucaramanga, Colombias</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal>Sabores Vallunos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal>Menú del día: Bandeja paisa, Arepa de chocolo, Postre de maracuyá</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Vallunos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal>Avenida 45 #67-89, Barrio Alameda, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal>Sabores Criollos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal>Menú del día: Bandeja paisa, Arroz con pollo, Postre de tres leches</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Criollos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal>Calle 89 #90-12, Barrio El Recreo, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal>Sabores Caribeños</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal>08:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal>Menú del día: Pescado frito, Arroz con coco, Ensalada de frutas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Caribeños"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal>Carrera 12 #34-56, Barrio Los Pinos, Cúcuta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal>Sabores Cartageneros</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal>07:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal>Menú del día: Cazuela de mariscos, Arroz con coco, Limonada de coco</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Cartageneros"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+</DataPropertyAssertion>
+
+<!-- CASA COMIDA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_comidas_para_llevar"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal>Avenida 67 #89-01, Barrio San Francisco, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal>Sabores Andinos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal>08:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#menu_del_día"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal>Menú del día: Ajiaco, Arepa de chocolo, Jugo de lulo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_espera_promedio"/>
+    <NamedIndividual IRI="#Casa_comida_llevar_Sabores_Andinos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA -->
+<Declaration>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <Class IRI="#Cervecería"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#eventos_especiales"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#eventos_especiales"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#eventos_especiales"/>
+    <Class IRI="#Cervecería"/>
+</DataPropertyDomain>
+<!-- CERVECERIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal>Calle 45 #67-89, Barrio El Carmen, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal>La Taberna</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal>17:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal>Marca1, Marca2, Marca3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taberna"/>
+    <Literal>Música en vivo los viernes, Noches de trivia los miércoles</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal>Diagonal 23 #45-67, Barrio El Poblado, Pasto, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal>La Birra</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal>18:00 - 01:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal>Marca4, Marca5, Marca6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Birra"/>
+    <Literal>Noche de tacos los jueves, Happy hour de 18:00 a 20:00 todos los días</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal>Carrera 56 #78-90, Barrio El Limón, Villavicencio, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal>El Cervecero</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal>16:00 - 00:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal>Marca7, Marca8, Marca9</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_El_Cervecero"/>
+    <Literal>Noche de Karaoke los sábados, Degustación de cervezas artesanales los viernes</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal>Avenida 78 #90-12, Barrio Los Laureles, Ibagué, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal>La Cervezuela</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal>15:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal>Marca10, Marca11, Marca12</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezuela"/>
+    <Literal>Noche de tacos y cerveza los martes, Trivia night los jueves</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal>Calle 34 #56-78, Barrio Santa Isabel, Montería, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal>La Fábrica</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal>16:00 - 01:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal>Marca13, Marca14, Marca15</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica"/>
+    <Literal>Noche de bingo los domingos, Música en vivo los viernes y sábados</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal>Diagonal 67 #89-01, Barrio Las Delicias, Tunja, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal>La Microcervecería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal>15:00 - 00:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal>Marca16, Marca17, Marca18</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Microcerveceria"/>
+    <Literal>Noche de tragos de autor los sábados, Taller de elaboración de cerveza los jueves</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal>Carrera 12 #34-56, Barrio San Antonio, Sincelejo, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal>La Taproom</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal>16:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal>Marca19, Marca20, Marca21</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Taproom"/>
+    <Literal>Noche de quesos y cerveza los miércoles, Degustación de cervezas internacionales los viernes</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal>Avenida 23 #45-67, Barrio Los Álamos, Popayán, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal>La Barrica</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal>17:00 - 01:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal>Marca22, Marca23, Marca24</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Barrica"/>
+    <Literal>Noche de pizzas y cerveza los viernes, Conciertos en vivo los sábados</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal>Calle 56 #78-90, Barrio La Floresta, Palmira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal>La Fábrica de Cervezas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal>16:00 - 00:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal>Marca25, Marca26, Marca27</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Fabrica_de_Cervezas"/>
+    <Literal>Noche de cervezas artesanales los viernes, Música en vivo los sábados</Literal>
+</DataPropertyAssertion>
+
+<!-- CERVECERIA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Cervecería"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal>Diagonal 78 #90-12, Barrio La Granja, Neiva, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal>La Cervezota</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal>17:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_cerveza_disponibles"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal>Marca28, Marca29, Marca30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_especiales"/>
+    <NamedIndividual IRI="#Cerveceria_La_Cervezota"/>
+    <Literal>Noche de cervezas importadas los jueves, Happy hour de 17:00 a 19:00 todos los días</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CHOCOLATERIAS -->
+<Declaration>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <Class IRI="#Chocolatería"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#postres_ofrecidos"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <Class IRI="#Chocolatería"/>
+</DataPropertyDomain>
+<!-- CHOCOLATERIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal>Diagonal 45 #23-56, Barrio Los Alpes, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal>Dulce Aroma</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal>Chocolate negro, Chocolate con leche, Chocolate blanco</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma"/>
+    <Literal>Trufas, Brownies, Tarta de chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal>Carrera 10 #15-30, Barrio Centro, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal>Cacao Libre</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal>Chocolate amargo, Chocolate con almendras, Chocolate con naranja</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Libre"/>
+    <Literal>Chocolate caliente, Fondue de chocolate, Mousse de chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal>Calle 20 #30-45, Barrio San Antonio, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal>Sabores Del Cacao</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal>Chocolate blanco con fresas, Chocolate con avellanas, Chocolate con menta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cacao"/>
+    <Literal>Crema de chocolate, Tarta de chocolate, Helado de chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal>Carrera 7 #8-10, Barrio Centro, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal>ChocoArte</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal>07:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal>Chocolate con almendras, Chocolate con coco, Chocolate con café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte"/>
+    <Literal>Brownies de chocolate, Torta de chocolate, Crepas con chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal>Carrera 15 #25-30, Barrio El Prado, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal>Sabores Del Café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal>Chocolate con nueces, Chocolate con frutos rojos, Chocolate con miel</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Sabores_Del_Cafe"/>
+    <Literal>Mousse de chocolate, Galletas de chocolate, Crema de chocolate caliente</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal>Diagonal 20 #17-25, Barrio La Castellana, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal>ChocoArte</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal>Chocolate con almendras, Chocolate con coco, Chocolate con café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_ChocoArte_2"/>
+    <Literal>Brownies de chocolate, Torta de chocolate, Crepas con chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal>Calle 12 #18-35, Barrio La Candelaria, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal>Sabor Colombiano</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal>Chocolate con café, Chocolate con panela, Chocolate con frutas tropicales</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Sabor_Colombiano"/>
+    <Literal>Torta de chocolate, Trufas de chocolate, Crepas con chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal>Carrera 5 #10-15, Barrio El Poblado, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal>Cacao Y Canela</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal>Chocolate con canela, Chocolate con chile, Chocolate con maracuyá</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Cacao_Y_Canela"/>
+    <Literal>Galletas de chocolate, Tarta de chocolate, Helado de chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal>Carrera 25 #30-20, Barrio La Castellana, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal>Aroma de Cacao</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal>08:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal>Chocolate con café, Chocolate con frutos secos, Chocolate con menta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Aroma_de_Cacao"/>
+    <Literal>Chocolatinas rellenas, Torta de chocolate, Helado de chocolate</Literal>
+</DataPropertyAssertion>
+
+<!-- CHOCOLATERIA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Chocolatería"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal>Calle 8 #15-30, Barrio El Prado, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal>Dulce Aroma</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedades_de_chocolate"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal>Chocolate con almendras, Chocolate con naranja, Chocolate con avellanas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#postres_ofrecidos"/>
+    <NamedIndividual IRI="#Chocolateria_Dulce_Aroma_2"/>
+    <Literal>Brownies de chocolate, Tarta de chocolate, Crepes de chocolate</Literal>
+</DataPropertyAssertion>
+
+
+<!-- COCTELERIAS -->
+<Declaration>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <Class IRI="#Coctelería"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#decoracion_tematica"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <Class IRI="#Coctelería"/>
+</DataPropertyDomain>
+<!-- COCTELERIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal>Diagonal 45 #20-30, Barrio El Lago, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal>La Brújula Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal>17:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal>Mojito de fresa, Caipirinha de mango, Piña colada con coco fresco</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
+    <Literal>Ambiente náutico con luces suaves y detalles marinos</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal>Calle 20 #15-25, Barrio El Centro, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal>La Barrica Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal>18:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal>Mojito cubano, Daiquiri de frutas tropicales, Caipirinha de maracuyá</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
+    <Literal>Estilo caribeño con colores vivos y música salsa</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal>Carrera 10 #18-25, Barrio El Cable, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal>La Copita Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal>19:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal>Margarita de mango, Mojito de frutos rojos, Caipirinha de piña</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Copita"/>
+    <Literal>Estilo vintage con luces de velas y decoración antigua</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal>Calle 35 #22-18, Barrio El Prado, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal>Ambiente Tropical Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal>18:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal>Piña colada, Mojito cubano, Daiquiri de maracuyá</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
+    <Literal>Ambiente tropical con palmeras y música reggae</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal>Carrera 7 #12-34, Barrio La Candelaria, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal>La Cava Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal>20:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">19000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal>Mojito de coco, Caipirinha de maracuyá, Margarita de fresa</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cava"/>
+    <Literal>Decoración rústica con barricas de vino y luces cálidas</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal>Carrera 15 #25-12, Barrio Granada, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal>Copa de Oro Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal>Mojito de piña, Daiquiri de mango, Caipirinha de maracuyá</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
+    <Literal>Estilo elegante con detalles dorados y luces tenues</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal>Calle 20 #15-25, Barrio La Cima, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal>La Cima Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal>19:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal>Mojito de maracuyá, Caipirinha de fresa, Piña colada de coco fresco</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Cima"/>
+    <Literal>Ambiente moderno con luces LED y música electrónica</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal>Carrera 8 #20-30, Barrio La Parada, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal>La Parada Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal>Margarita de mango, Mojito de maracuyá, Daiquiri de frutos rojos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Parada"/>
+    <Literal>Ambiente rústico con detalles en madera y luces cálidas</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal>Calle 34 #25-16, Barrio La Playa, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal>La Playa Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal>20:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal>Mojito de mango, Caipirinha de maracuyá, Piña colada de coco fresco</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Playa"/>
+    <Literal>Ambiente playero con arena, sombrillas y música tropical</Literal>
+</DataPropertyAssertion>
+
+<!-- COCTELERIA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Coctelería"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal>Carrera 6 #12-45, Barrio El Acuario, Barrancabermeja, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal>La Pecera Bar</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidad_de_cocteles"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal>Margarita de maracuyá, Mojito de fresa, Piña colada de piña natural</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#decoracion_tematica"/>
+    <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
+    <Literal>Ambiente submarino con peceras y luces azules</Literal>
+</DataPropertyAssertion>
+
+
+
+<!-- HELADERIAS -->
+<Declaration>
+    <DataProperty IRI="#variedad_de_helado"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <Class IRI="#Heladería"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#toppings_disponibles"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <Class IRI="#Heladería"/>
+</DataPropertyDomain>
+
+<!-- HELADERIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal>Calle 10 #15-20, Barrio Centro, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal>Frescura Helados</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal>11:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal>Chocolate, Vainilla, Fresa, Menta, Mango</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_Frescura"/>
+    <Literal>Chispas de chocolate, Nueces, Frutas frescas, Galletas trituradas</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal>Carrera 20 #30-25, Barrio Alameda, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal>Fruta Fría Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal>12:00 - 23:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal>Limón, Coco, Maracuyá, Guanábana, Piña</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_FrutaFria"/>
+    <Literal>Granola, Salsa de chocolate, Crema batida, Frutas en almíbar</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 3 --><Declaration>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal>Calle 7 #12-15, Barrio La Victoria, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal>Dulce Sabor Helados</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal>10:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal>Chocolate blanco, Tiramisú, Canela, Mora, Pistacho</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_DulceSabor"/>
+    <Literal>Cereal de miel, Malvaviscos, Frutas frescas, Salsa de caramelo</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal>Diagonal 15 #20-10, Barrio El Bosque, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal>La Frutería Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal>12:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal>Coco, Uva, Durazno, Mandarina, Papaya</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_La_Fruteria"/>
+    <Literal>Granola, Salsa de fresa, Crema batida, Trozos de frutas</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal>Carrera 12 #8-25, Barrio La Floresta, Tunja, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal>Sabor y Arte Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal>11:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal>Fresa, Limón, Piña, Mango, Chocolate</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_SaborArte"/>
+    <Literal>Chispas de chocolate, Nueces, Salsa de fresa, Galletas trituradas</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal>Calle 22 #17-30, Barrio La Granja, Pasto, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal>La Crema Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal>10:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal>Vainilla, Fresa, Chocolate, Menta, Café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_LaCrema"/>
+    <Literal>Galletas trituradas, Salsa de chocolate, Frutas frescas, Crema batida</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal>Carrera 7 #12-45, Barrio El Recreo, Ibagué, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal>Delicias Geladas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal>12:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal>Fresa, Mango, Chocolate, Vainilla, Menta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_DeliciasGeladas"/>
+    <Literal>Chispas de chocolate, Nueces, Sirope de frutas, Galletas trituradas</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal>Calle 5 #9-21, Barrio La Esperanza, Villavicencio, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal>Sabores del Valle Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal>11:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal>Mango, Guanábana, Lulo, Coco, Piña</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_SaboresDelValle"/>
+    <Literal>Frutas frescas, Granola, Salsa de chocolate, Malvaviscos</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal>Calle 15 #20-30, Barrio El Paraíso, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal>Sabor Divino Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal>10:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal>Vainilla, Fresa, Chocolate, Menta, Café</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_SaborDivino"/>
+    <Literal>Chispas de chocolate, Nueces, Sirope de frutas, Galletas trituradas</Literal>
+</DataPropertyAssertion>
+
+<!-- HELADERIA 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Heladería"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal>Carrera 25 #30-40, Barrio La Primavera, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal>Aroma Gelato Heladería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal>12:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_helado"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal>Coco, Mango, Mora, Durazno, Piña</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#toppings_disponibles"/>
+    <NamedIndividual IRI="#Heladeria_AromaGelato"/>
+    <Literal>Granola, Salsa de fresa, Crema batida, Trozos de frutas</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercados gastronómicos -->
+<Declaration>
+    <DataProperty IRI="#puestos_disponibles"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <Class IRI="#Mercado_gastronómico"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+</Declaration>
+<DataPropertyRange>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <Class IRI="#Mercado_gastronómico"/>
+</DataPropertyDomain>
+
+<!-- Mercado gastronómico 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal>Carrera 10 #25-30, Barrio La Candelaria, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal>Sabores de Colombia - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal>25</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabores_de_Colombia"/>
+    <Literal>Festival del Café Colombiano (20 de mayo), Semana de la Gastronomía Nacional (15-22 de julio)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal>Calle 15 #30-40, Barrio La Floresta, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal>Sabor y Arte - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal>09:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal>30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Sabor_y_Arte"/>
+    <Literal>Feria del Chocolate (5-10 de agosto), Festival de la Arepa (20-25 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal>Carrera 7 #15-20, Barrio Centro, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal>La Plaza - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal>20</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Plaza"/>
+    <Literal>Festival del Marisco (5-10 de junio), Feria del Dulce (15-20 de octubre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal>Diagonal 20 #25-30, Barrio El Prado, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal>La Terraza - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal>09:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal>25</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terraza"/>
+    <Literal>Feria del Marisco (10-15 de julio), Festival del Ceviche (5-10 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal>Carrera 10 #15-20, Barrio El Prado, Cúcuta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal>Los Sabores - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal>11:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal>30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Sabores"/>
+    <Literal>Festival del Asado (15-20 de septiembre), Feria del Dulce (10-15 de diciembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal>Calle 20 #25-30, Barrio El Centro, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal>La Ribera - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal>10:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal>25</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Ribera"/>
+    <Literal>Feria del Café (5-10 de julio), Festival del Chocolate (15-20 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal>Calle 10 #15-20, Barrio El Prado, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal>La Terracita - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">27000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal>20</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Terracita"/>
+    <Literal>Festival de la Arepa (10-15 de agosto), Feria del Dulce (20-25 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal>Carrera 25 #30-40, Barrio El Centro, Popayán, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal>Los Aromas - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal>10:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal>25</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_Los_Aromas"/>
+    <Literal>Festival del Café (5-10 de julio), Festival del Chocolate (15-20 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal>Calle 10 #15-20, Barrio San Antonio, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal>La Placita - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal>10:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal>30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Placita"/>
+    <Literal>Feria del Dulce (10-15 de agosto), Festival de la Arepa (20-25 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- Mercado gastronómico 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_gastronómico"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal>Carrera 30 #25-30, Barrio Centro, Villavicencio, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal>La Casona - Mercado Gastronómico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal>09:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#puestos_disponibles"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal>25</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#eventos_gastronomicos_programados"/>
+    <NamedIndividual IRI="#Mercado_Gastronomico_La_Casona"/>
+    <Literal>Festival del Café (5-10 de julio), Festival del Chocolate (15-20 de noviembre)</Literal>
+</DataPropertyAssertion>
+
+<!-- PUBS -->
+
+<DataPropertyDomain>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <Class IRI="#Pub"/>
+</DataPropertyDomain>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <Class IRI="#Pub"/>
+</DataPropertyDomain>
+<!-- PUB 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal>Carrera 45 #12-34, Barrio El Poblado, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal>La Taberna - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal>Cervezas artesanales, Cocteles clásicos, Whisky de malta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Taberna"/>
+    <Literal>Acogedor, Animado, Música en vivo los fines de semana</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal>Calle 20 #25-30, Barrio El Centro, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal>La Cervecería - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal>17:00 - 01:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal>Cervezas artesanales, Cocteles variados, Ron añejo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Cerveceria"/>
+    <Literal>Relajado, Ideal para reuniones, Terraza al aire libre</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal>Carrera 12 #20-30, Barrio La Candelaria, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal>La Barrica - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal>19:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal>Cervezas importadas, Cocteles de autor, Tequila premium</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Barrica_2"/>
+    <Literal>Íntimo, Elegante, Música lounge</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal>Calle 25 #30-40, Barrio Granada, Armenia, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal>La Cava - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">24000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal>Whisky escocés, Gin tonic, Vodka premium</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Cava"/>
+    <Literal>Modernidad, Vibrante, Zona de juegos de mesa</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal>Carrera 8 #15-25, Barrio El Peñón, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal>La Pinta - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal>20:00 - 04:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">26000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal>Ron añejo, Cervezas artesanales, Cocteles tropicales</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Pinta"/>
+    <Literal>Dinámico, Juvenil, Área de billar</Literal>
+</DataPropertyAssertion>
+ 
+<!-- PUB 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal>Calle 30 #25-35, Barrio El Prado, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal>La Bruja - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal>19:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal>Ginebra premium, Cervezas importadas, Cocteles clásicos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Bruja"/>
+    <Literal>Animado, Festivo, Zona de karaoke</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 7 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal>Calle 35 #20-15, Barrio El Cable, Manizales, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal>La Tasca - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal>18:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">27000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal>Vinos seleccionados, Cocteles artesanales, Whisky escocés</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Tasca"/>
+    <Literal>Íntimo, Relajado, Zona de sofás</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal>Carrera 7 #24-30, Barrio San Francisco, Tunja, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal>La Barrica - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal>20:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal>Cervezas artesanales, Cocteles de autor, Ron añejo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Barrica"/>
+    <Literal>Ecléctico, Festivo, Área de baile</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 9 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal>Carrera 18 #22-45, Barrio El Prado, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal>La Sombra - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal>19:00 - 02:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">24000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal>Cervezas importadas, Cocteles clásicos, Vinos de reserva</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Sombra"/>
+    <Literal>Bohemio, Relajado, Zona de terraza</Literal>
+</DataPropertyAssertion>
+
+<!-- PUB 10 -->
+<Declaration>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Pub"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal>Carrera 4 #10-20, Barrio La Playa, Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal>La Caverna - Pub</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal>20:00 - 03:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#precio_promedio"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23000.00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_bebidas"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal>Cervezas artesanales, Cocteles de autor, Whisky de malta</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipos_de_ambiente"/>
+    <NamedIndividual IRI="#Pub_La_Caverna"/>
+    <Literal>Acogedor, Místico, Área de juegos de mesa</Literal>
+</DataPropertyAssertion>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
 <!--  -->
 
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1715487519673" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%202.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1715487519673" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%20owl%20-%20EDITABLE.owx"/>
-        <uri id="Automatically generated entry, Timestamp=1715487519673" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%20owl.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1715543722109" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%202.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1715543722109" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%20owl%20-%20EDITABLE.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1715543722109" name="duplicate:http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%20owl.owx"/>
     </group>
 </catalog>
