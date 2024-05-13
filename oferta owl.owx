@@ -6133,36 +6133,7 @@
 <!--AUDITORIOS-->
 
 <!--AUDITORIO 1-->
-   <Declaration>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-    </Declaration>
 
-    <ClassAssertion>
-        <Class IRI="Auditorio"/>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-    </ClassAssertion>
-      <DataPropertyAssertion>
-        <DataProperty IRI="#direccion"/>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-        <Literal>Calle 23 19 - 07, 170001 Florencia, Colombia</Literal>
-    </DataPropertyAssertion>
-     <DataPropertyAssertion>
-        <DataProperty IRI="#nombre"/>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-        <Literal>Auditorio angel cuniberti</Literal>
-    </DataPropertyAssertion>
-        <DataPropertyAssertion>
-        <DataPropertyAssertion>
-        <DataProperty IRI="#precio_por_persona"/>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000</Literal>
-    </DataPropertyAssertion>
-     </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#valoracion"/>
-        <NamedIndividual IRI="#Auditorio_angel_cuniberti"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
-    </DataPropertyAssertion>
 
 <!--AUDITORIO 2-->
 

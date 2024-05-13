@@ -6128,6 +6128,38 @@
 
 <!-- INSTALACIUON TURISTICA OP VINCULADA -->
 
+<!-- Definición de la clase Instalación Turística -->
+<ClassAssertion>
+    <Class IRI="#Instalacion_Turistica"/>
+    <NamedIndividual IRI="#nombre_de_la_instalacion_turistica"/>
+</ClassAssertion>
+
+<!-- Definición de DataProperties para la clase Instalación Turística -->
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo"/>
+    <NamedIndividual IRI="#nombre_de_la_instalacion_turistica"/>
+    <Literal>Hotel</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#ubicacion"/>
+    <NamedIndividual IRI="#nombre_de_la_instalacion_turistica"/>
+    <Literal>Bahía de Santa Marta, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#nombre_de_la_instalacion_turistica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#calificacion"/>
+    <NamedIndividual IRI="#nombre_de_la_instalacion_turistica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
 <!--ASISTENCIA A EVENTOS-->
 <!--AUDITORIOS-->
 
