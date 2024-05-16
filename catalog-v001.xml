@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/andre/ontologies/turismo/oferta" uri="oferta%20owl%20-%20EDITABLE.owx"/>
-</catalog>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"/>

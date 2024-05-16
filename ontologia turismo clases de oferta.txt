@@ -143,3 +143,36 @@ Negocio local
 		Tienda de modas
 		Tienda de souvenirs
 		Tienda de telefonía
+
+
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad_maxima"/>
+    <NamedIndividual IRI="#Palacio_de_Congresos_y_Exposiciones_Corferias"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5000</Literal>
+</DataPropertyAssertion>
+
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio_promedio"/>
+        <Class IRI="#Deporte"/>
+    </DataPropertyDomain>
+
+    <Declaration>
+        <DataProperty IRI="#aforo"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#aforo"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aforo"/>
+        <Class IRI="#Deporte"/>
+    </DataPropertyDomain>
+
+
+
+
+
+
+
