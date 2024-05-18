@@ -106,16 +106,11 @@
         <Class IRI="#Centro_de_actividades_multiaventura"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#a"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Centro_de_interpretacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Centro_de_masajes"/>
     </Declaration>
-
-    
     <Declaration>
         <Class IRI="#Centro_educativo"/>
     </Declaration>
@@ -438,7 +433,7 @@
         <Class IRI="#Vivienda_de_uso_turístico"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Viñero"/>
+        <Class IRI="#Viñedo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zoologico"/>
@@ -1055,7 +1050,7 @@
         <Class IRI="#Alojamiento"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Viñero"/>
+        <Class IRI="#Viñedo"/>
         <Class IRI="#Ocio_y_cultura"/>
     </SubClassOf>
     <SubClassOf>
@@ -1073,7 +1068,7 @@
         <Class IRI="#Sala_de_exposiciones"/>
         <Class IRI="#Salon_recreativo"/>
         <Class IRI="#Teatro"/>
-        <Class IRI="#Viñero"/>
+        <Class IRI="#Viñedo"/>
         <Class IRI="#Zoologico"/>
     </DisjointClasses>
     <DisjointClasses>
@@ -22826,15 +22821,15 @@
 
 
 <Declaration>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
 </Declaration>
 
 <DataPropertyRange>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <Datatype abbreviatedIRI="xsd:string"/>
 </DataPropertyRange>
 <DataPropertyDomain>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <Class IRI="#Acuario"/>
 </DataPropertyDomain>
 
@@ -22883,7 +22878,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_Time_Out"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
 </DataPropertyAssertion>
@@ -22931,7 +22926,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_del_Pacifico"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
 </DataPropertyAssertion>
@@ -22977,7 +22972,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_Mundo_Submarino"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
 </DataPropertyAssertion>
@@ -23023,7 +23018,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_Coral_Reef"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
 </DataPropertyAssertion>
@@ -23070,7 +23065,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_Maravillas_Marinas"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
 </DataPropertyAssertion>
@@ -23117,7 +23112,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_AcuaVida"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
 </DataPropertyAssertion>
@@ -23165,7 +23160,7 @@
 </DataPropertyAssertion>
 
 <DataPropertyAssertion>
-    <DataProperty IRI="#tamano_acuario"/>
+    <DataProperty IRI="#tamaño_acuario"/>
     <NamedIndividual IRI="#Acuario_Oceano_Azul"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
 </DataPropertyAssertion>
@@ -24500,6 +24495,3693 @@
     <NamedIndividual IRI="#Parque_Diversion_Infantil"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
 </DataPropertyAssertion>
+
+<!-- PARQUES INFANTILES -->
+
+<Declaration>
+    <DataProperty IRI="#descripcion"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#descripcion"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#descripcion"/>
+    <Class IRI="#Parque_infantil"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#capacidad"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#capacidad"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#capacidad"/>
+    <Class IRI="#Parque_infantil"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#tipo_de_juegos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <Class IRI="#Parque_infantil"/>
+</DataPropertyDomain>
+
+<!-- PARQUE INFANTIL 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal>Parque Infantil Fantasía</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal>Avenida de los Sueños #101, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal>Un lugar mágico lleno de juegos y actividades para niños de todas las edades.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal>Toboganes, columpios, áreas de trepa</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Fantasia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- PARQUE INFANTIL 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal>Parque Infantil Aventura</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal>Calle 26 #6-19, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal>Un parque lleno de aventuras y actividades recreativas para niños.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal>Juegos de agua, tirolinas, área de picnic</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Aventura"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- PARQUE INFANTIL 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal>Parque Infantil Sonrisa</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal>Carrera 7 #72-80, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal>Un lugar especial para que los niños jueguen y desarrollen su creatividad.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal>Pistas de patinaje, laberintos, juegos educativos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Sonrisa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- PARQUE INFANTIL 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal>Parque Infantil Alegre</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal>Calle 127 #15-00, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal>Un parque diseñado para la diversión y el aprendizaje de los niños.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal>Casas de juego, toboganes, columpios</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Alegre"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+<!-- PARQUE INFANTIL 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal>Parque Infantil Fantasía</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal>Carrera 68 #10-95, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal>Un lugar lleno de fantasía y juegos para niños de todas las edades.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal>Juegos de trepa, áreas de arena, columpios</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Huellitas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- PARQUE INFANTIL 6 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Parque_infantil"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal>Parque Infantil Cariño</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal>Calle 45 #8-60, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal>Un espacio seguro y divertido para los más pequeños de la casa.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_juegos"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal>Columpios, áreas de juego, juegos interactivos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Parque_Infantil_Carino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- PLANETARIOS -->
+
+<Declaration>
+    <DataProperty IRI="#horario"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#horario"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#horario"/>
+    <Class IRI="#Planetario"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#proyecciones"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#proyecciones"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#proyecciones"/>
+    <Class IRI="#Planetario"/>
+</DataPropertyDomain>
+
+<!-- PLANETARIO 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Planetario"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal>Planetario Universal</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal>Avenida de las Estrellas #100, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal>Un centro de observación y educación astronómica con proyecciones y exposiciones.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#proyecciones"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal>Proyecciones digitales, documentales astronómicos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Planetario_Universal"/>
+    <Literal>Martes a Domingo, 10:00 AM - 6:00 PM</Literal>
+</DataPropertyAssertion>
+
+
+<!-- PLANETARIO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Planetario"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal>Planetario Cosmológico</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal>Carrera 5 #27-20, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal>Un espacio para explorar el universo a través de exposiciones interactivas y observaciones astronómicas.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#proyecciones"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal>Proyecciones de constelaciones, películas educativas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Planetario_Cosmologico"/>
+    <Literal>Miércoles a Domingo, 11:00 AM - 7:00 PM</Literal>
+</DataPropertyAssertion>
+
+<!-- PLANETARIO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Planetario"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal>Planetario Andino</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal>Calle 10 #5-10, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal>Un lugar para aprender sobre astronomía con actividades educativas y observaciones nocturnas.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#proyecciones"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal>Proyecciones en cúpula, charlas astronómicas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Planetario_Andino"/>
+    <Literal>Martes a Sábado, 9:00 AM - 5:00 PM</Literal>
+</DataPropertyAssertion>
+
+<!-- PLANETARIO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Planetario"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal>Planetario Galáctico</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal>Calle 45 #7-50, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal>Un centro de educación y observación astronómica para todas las edades.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">450</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#proyecciones"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal>Documentales sobre el espacio, proyecciones en 3D</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Planetario_Galactico"/>
+    <Literal>Miércoles a Domingo, 10:00 AM - 8:00 PM</Literal>
+</DataPropertyAssertion>
+
+<!-- PLANETARIO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Planetario"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal>Planetario Estrellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal>Calle 12 #4-30, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal>Un centro educativo que ofrece experiencias de inmersión en el mundo de la astronomía.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#proyecciones"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal>Proyecciones interactivas, shows astronómicos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Planetario_Estrellas"/>
+    <Literal>Jueves a Domingo, 12:00 PM - 9:00 PM</Literal>
+</DataPropertyAssertion>
+
+
+<!-- SALA EXPOSICIONES -->
+
+
+<Declaration>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <Class IRI="#Sala_de_exposiciones"/>
+</DataPropertyDomain>
+
+
+<!-- SALA DE EXPOSICIONES 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Sala_de_exposiciones"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal>Sala de Exposiciones Arte Moderno</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal>Avenida de los Artistas #50, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal>Un espacio dedicado a la exhibición de arte moderno y contemporáneo.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal>Lunes a Viernes, 9:00 AM - 6:00 PM</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal>Exposiciones temporales, eventos culturales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Moderno"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- SALA DE EXPOSICIONES 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Sala_de_exposiciones"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal>Sala de Exposiciones Arte Contemporáneo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal>Calle del Arte #123, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal>Espacio dedicado a la exhibición de arte contemporáneo de artistas locales e internacionales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal>Martes a Sábado, 10:00 AM - 7:00 PM</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal>Exposiciones temporales, presentaciones artísticas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Arte_Contemporaneo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- SALA DE EXPOSICIONES 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Sala_de_exposiciones"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal>Sala de Exposiciones Fotográficas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal>Carrera de las Imágenes #789, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal>Lugar dedicado a la exposición de fotografías artísticas de diversos géneros y estilos.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal>Lunes a Viernes, 8:00 AM - 5:00 PM</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal>Exposiciones temáticas, concursos fotográficos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Fotograficas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+<!-- SALA DE EXPOSICIONES 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Sala_de_exposiciones"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal>Sala de Exposiciones Históricas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal>Plaza de la Historia #456, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal>Espacio dedicado a la exposición de artefactos y documentos históricos de la región.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal>Martes a Domingo, 9:00 AM - 6:00 PM</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal>Exposiciones permanentes, conferencias históricas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Historicas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- SALA DE EXPOSICIONES 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Sala_de_exposiciones"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal>Sala de Exposiciones de Esculturas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal>Calle de las Esculturas #567, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal>Espacio dedicado a la exhibición de esculturas de artistas locales y nacionales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal>Miércoles a Sábado, 11:00 AM - 8:00 PM</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#programacion_de_exposicion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal>Exposiciones rotativas, talleres de escultura</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Sala_Exposiciones_Esculturas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- SALON RECREATIVO -->
+
+<Declaration>
+    <DataProperty IRI="#variedad_de_juegos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <Class IRI="#Salon_recreativo"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#aforo"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#aforo"/>
+    <Datatype abbreviatedIRI="xsd:int"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#aforo"/>
+    <Class IRI="#Salon_recreativo"/>
+</DataPropertyDomain>
+
+
+<!-- SALON RECREATIVO 1-->
+
+<Declaration>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Salon_recreativo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+    <Literal>Salón Recreativo Fantasía</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+    <Literal>Carrera 24 #45-67, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+    <Literal>Juegos de realidad virtual</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Tecnologica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- SALON RECREATIVO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Salon_recreativo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+    <Literal>Salón Recreativo Aventura Extrema</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+    <Literal>Calle 45 #20-30, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+    <Literal>Simuladores de vuelo, juegos de escapismo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Extrema"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- SALON RECREATIVO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Salon_recreativo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+    <Literal>Salón Recreativo Magia Diversion</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+    <Literal>Carrera 10 #15-25, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+    <Literal>Juegos de magia, juegos de habilidad</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Magia_Diversion"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+
+<!-- SALON RECREATIVO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Salon_recreativo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+    <Literal>Salón Recreativo Aventura Infantil</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+    <Literal>Calle 6 #12-34, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+    <Literal>Juegos inflables, áreas de escalada</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Aventura_Infantil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- SALON RECREATIVO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Salon_recreativo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+    <Literal>Salón Recreativo Fantasía Juvenil</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+    <Literal>Carrera 50 #18-45, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#variedad_de_juegos"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+    <Literal>Videojuegos, simuladores</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Salon_Recreativo_Fantasia_Juvenil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+<!-- TEATROS  -->
+
+
+
+<Declaration>
+    <DataProperty IRI="#aforo"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#aforo"/>
+    <Datatype abbreviatedIRI="xsd:int"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#aforo"/>
+    <Class IRI="#Teatro"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <Class IRI="#Teatro"/>
+</DataPropertyDomain>
+
+<!-- TEATRO 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Teatro"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal>Teatro Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal>Calle 10 #25-30, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal>Un teatro emblemático con una larga historia de producciones teatrales de alta calidad.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal>Teatro, música en vivo, danza</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Teatro_Colombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+
+<!-- TEATRO 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Teatro"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal>Teatro Luz</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal>Carrera 20 #15-45, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal>Un teatro acogedor que ofrece una variedad de producciones locales y nacionales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal>Teatro, comedia, música en vivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Teatro_Luz"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+<!-- TEATRO 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Teatro"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal>Teatro Elipse</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal>Plaza Mayor #10-20, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal>Un teatro moderno que presenta una amplia gama de espectáculos culturales y musicales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal>Teatro clásico, ballet, conciertos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Teatro_Elipse"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+<!-- TEATRO 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Teatro"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal>Teatro Encanto</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal>Calle del Arte #5-30, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal>Un teatro histórico que ofrece espectáculos variados desde teatro clásico hasta musicales contemporáneos.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal>Teatro clásico, musicales, espectáculos infantiles</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Teatro_Encanto"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- TEATRO 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Teatro"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal>Teatro Arcoiris</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal>Calle de la Cultura #12-25, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal>Un teatro vibrante conocido por sus producciones innovadoras y espectáculos de alta calidad.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#aforo"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">450</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_espectaculos"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal>Teatro experimental, danza contemporánea, performance</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Teatro_Arcoiris"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- VIÑEDOS -->
+
+<!-- Declaraciones de propiedades de datos -->
+
+<Declaration>
+    <DataProperty IRI="#produccion_anual"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#produccion_anual"/>
+    <Datatype abbreviatedIRI="xsd:int"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#produccion_anual"/>
+    <Class IRI="#Viñedo"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#tamaño_viñedo"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <Class IRI="#Viñedo"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#tipo_de_uva"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <Class IRI="#Viñedo"/>
+</DataPropertyDomain>
+
+
+<!-- VIÑEDO 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal>Viñedo La Esperanza</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal>Valle de Cocora, Quindío, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal>50 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal>Sauvignon Blanc, Chardonnay, Pinot Noir</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal>100,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_La_Esperanza"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+
+<!-- VIÑEDO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal>Viñedo Sol de los Andes</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal>Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal>80 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal>Merlot, Cabernet Sauvignon, Syrah</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal>120,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_Sol_de_los_Andes"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- VIÑEDO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal>Viñedo Valle del Viento</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal>Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal>60 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal>Malbec, Sangiovese, Tempranillo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal>90,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_Valle_del_Viento"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+
+
+<!-- VIÑEDO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal>Viñedo Montañas del Café</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal>Eje Cafetero, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal>70 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal>Cabernet Franc, Malbec, Colombard</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal>110,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_Montañas_del_Café"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- VIÑEDO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal>Viñedo Aromas del Valle</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal>Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal>55 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal>Merlot, Cabernet Sauvignon, Pinot Grigio</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal>85,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_Aromas_del_Valle"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- VIÑEDO 6 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal>Viñedo Vista Hermosa</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal>Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_viñedo"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal>65 hectáreas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_uva"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal>Cabernet Sauvignon, Malbec, Syrah</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#produccion_anual"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal>95,000 botellas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Viñedo_Vista_Hermosa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- ZOOLÓGICOS -->
+
+<Declaration>
+    <DataProperty IRI="#especies"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#especies"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especies"/>
+    <Class IRI="#Zoologico"/>
+</DataPropertyDomain>
+
+<!-- ZOOLÓGICO 1 -->
+
+
+<Declaration>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Zoologico"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+    <Literal>Zoológico Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+    <Literal>Calle 80 #45-67, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especies"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+    <Literal>Mamíferos, aves, reptiles, anfibios, peces</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+    <Literal>Un zoológico dedicado a la conservación y exhibición de diversas especies animales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Zoologico_Napoles_Colombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+<!-- ZOOLÓGICO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Zoologico"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+    <Literal>Zoológico Barranquilla</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+    <Literal>Carrera 51B #73-144, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especies"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+    <Literal>Mamíferos, aves, reptiles, anfibios</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+    <Literal>Un zoológico ubicado en Barranquilla, hogar de una amplia variedad de especies de animales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Zoologico_Barranquilla"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+
+
+<!-- ZOOLÓGICO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Zoologico"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+    <Literal>Zoológico Medellín</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+    <Literal>Carrera 52 #4-000, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especies"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+    <Literal>Mamíferos, aves, reptiles, anfibios, peces</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+    <Literal>Un zoológico en Medellín que alberga una gran diversidad de especies animales para el disfrute de toda la familia.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Zoologico_Medellin"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- ZOOLÓGICO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Zoologico"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+    <Literal>Zoológico Cali</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+    <Literal>Carrera 2 Oeste #10-150, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especies"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+    <Literal>Mamíferos, aves, reptiles, anfibios, peces</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+    <Literal>Un zoológico situado en Cali que exhibe una amplia variedad de especies de animales.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Zoologico_Cali"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- ZOOLÓGICO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Zoologico"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+    <Literal>Zoológico Bogotá</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+    <Literal>Carrera 45 #78-34, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especies"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+    <Literal>Mamíferos, aves, reptiles, anfibios, peces</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+    <Literal>Un zoológico ubicado en la capital colombiana que presenta una gran variedad de especies animales en su hábitat natural.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Zoologico_Bogota"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIOS -->
+
+<!-- BALNEARIOS -->
+
+<Declaration>
+    <DataProperty IRI="#actividades_balneario"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#actividades_balneario"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#actividades_balneario"/>
+    <Class IRI="#Balneario"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#tipo_agua"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tipo_agua"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipo_agua"/>
+    <Class IRI="#Balneario"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#descripcion"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#descripcion"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#descripcion"/>
+    <Class IRI="#Balneario"/>
+</DataPropertyDomain>
+
+<!-- BALNEARIO 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal>Balneario Las Termales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal>Km 5 vía San Gil - Charalá, Santander, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal>Termal</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal>Natación, spa, senderismo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal>Disfruta de aguas termales relajantes y una variedad de actividades como natación, spa y senderismo en un entorno natural único.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_Las_Termales"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal>Balneario Los Manantiales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal>Km 10 vía Cali - Buenaventura, Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal>Mineral</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal>Piscinas termales, baños de barro, masajes</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal>Relájate en las piscinas termales y disfruta de tratamientos de barro y masajes en medio de un entorno natural espectacular.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_Los_Manantiales"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal>Balneario Las Aguas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal>Km 15 vía Santa Marta - Ciénaga, Magdalena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal>Salina</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal>Baños en el mar, deportes acuáticos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal>Disfruta de las aguas salinas del mar Caribe y practica deportes acuáticos en un ambiente tropical único.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_Las_Aguas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Balneario La Cascada</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Vereda La Catarata, San Agustín, Huila, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Mineral</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Baños en cascadas naturales, caminatas ecológicas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Sumérgete en las refrescantes cascadas naturales y explora senderos ecológicos en un entorno natural impresionante.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal>Balneario Las Gaviotas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal>Km 20 vía Armenia - Pereira, Risaralda, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal>Mineral</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal>Natación, spa, deportes acuáticos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal>Relájate en las piscinas y disfruta de tratamientos de spa y deportes acuáticos en un ambiente tranquilo y natural.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_Las_Gaviotas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- BALNEARIO 6 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Balneario La Cascada</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Km 30 vía Manizales - Medellín, Caldas, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Mineral</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Baños en cascadas naturales, caminatas ecológicas</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal>Disfruta de las refrescantes cascadas naturales y explora senderos ecológicos en un entorno montañoso espectacular.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_La_Cascada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 7 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal>Balneario Los Corales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal>Km 10 vía Villavicencio - Acacías, Meta, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal>Termal</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal>Piscinas termales, spa, senderismo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal>Relájate en las piscinas termales y disfruta de tratamientos de spa y senderismo en un ambiente natural y tranquilo.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_Los_Corales"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- BALNEARIO 8 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal>Balneario La Herradura</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal>Km 15 vía Cali - Buenaventura, Valle del Cauca, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_agua"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal>Salina</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#actividades_balneario"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal>Baños en el mar, deportes acuáticos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal>Disfruta de las aguas salinas del mar Pacífico y practica deportes acuáticos en un entorno costero impresionante.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Balneario_La_Herradura"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- CENTRO DE MASAJES -->
+
+<Declaration>
+    <DataProperty IRI="#tipo_masaje"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#tipo_masaje"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#tipo_masaje"/>
+    <Class IRI="#Centro_de_masajes"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <Class IRI="#Centro_de_masajes"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#descripcion"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#descripcion"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#descripcion"/>
+    <Class IRI="#Centro_de_masajes"/>
+</DataPropertyDomain>
+
+
+<!-- CENTRO DE MASAJES 1 -->
+
+<!-- CENTRO DE MASAJES 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Centro de Masajes Relax</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Calle 50 #25-30, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Relajante, descontracturante, deportivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Masajes terapéuticos, masajes con piedras calientes, reflexología</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Ofrecemos una amplia gama de masajes terapéuticos para aliviar el estrés y mejorar el bienestar físico y mental.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- CENTRO DE MASAJES 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Centro de Masajes Relax</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Calle 50 #25-30, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Relajante, descontracturante, deportivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Masajes terapéuticos, masajes con piedras calientes, reflexología</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal>Ofrecemos una amplia gama de masajes terapéuticos para aliviar el estrés y mejorar el bienestar físico y mental.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Relax"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO DE MASAJES 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal>Centro de Masajes Spa Vital</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal>Avenida Principal #123, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal>Relajante, tailandés, deportivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal>Masaje de aromaterapia, masaje con aceites esenciales, masaje sueco</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal>Disfruta de una experiencia de relajación total con nuestros masajes exclusivos y terapéuticos.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_SpaVital"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO DE MASAJES 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal>Centro de Masajes Armonía</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal>Cl. 10 #20-30, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal>Relajante, terapéutico, deportivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal>Masaje con ventosas, masaje craneal, masaje de pies</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal>Descubre el equilibrio perfecto entre cuerpo y mente con nuestros tratamientos de masajes personalizados.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO DE MASAJES 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal>Centro de Masajes Aromaterapia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal>Av. Principal #567, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal>Relajante, holístico, shiatsu</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal>Masaje de aromaterapia con aceites esenciales, masaje sueco, masaje tailandés</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal>Sumérgete en una experiencia de relajación total con nuestros masajes que utilizan los beneficios de la aromaterapia.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Aromaterapia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO DE MASAJES 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal>Centro de Masajes Vitalidad</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal>Carrera 15 #30-40, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal>Relajante, deportivo, holístico</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal>Masaje sueco, masaje tailandés, masaje con piedras calientes</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal>Recupera la energía y vitalidad con nuestros masajes diseñados para revitalizar cuerpo y mente.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Vitalidad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO DE MASAJES 6 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_de_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal>Centro de Masajes Armonía Corporal</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal>Calle 20 #15-25, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_masaje"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal>Relajante, terapéutico, deportivo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_en_masajes"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal>Masaje con ventosas, masaje deportivo, masaje de pies</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal>Sumérgete en un oasis de calma y bienestar con nuestros tratamientos de masajes personalizados.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Masajes_Armonia_Corporal"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO ESTÉTICO -->
+
+<Declaration>
+    <DataProperty IRI="#especialidades_esteticas"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <Class IRI="#Centro_estetico"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <Class IRI="#Centro_estetico"/>
+</DataPropertyDomain>
+
+<!-- CENTRO ESTÉTICO 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_estetico"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal>Centro Estético Belleza Natural</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal>Calle 70 #35-45, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal>Tratamientos faciales, depilación, masajes reductivos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal>Tratamientos de rejuvenecimiento, manicura y pedicura, maquillaje profesional</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal>Ofrecemos una amplia gama de servicios de belleza para realzar tu aspecto y mejorar tu confianza.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Belleza_Natural"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+
+<!-- CENTRO ESTÉTICO 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_estetico"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal>Centro Estético Rosa Deluxe</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal>Calle 50 #60-15, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal>Hidratación facial, tratamientos antiarrugas, masajes con aromaterapia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal>Depilación con cera, reducción de celulitis, lifting facial</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal>En Centro Estético Rosa Deluxe, nos especializamos en tratamientos que realzan tu belleza natural.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Rosa_Deluxe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO ESTÉTICO 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_estetico"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal>Centro Estético Renacer</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal>Carrera 15 #45-20, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal>Tratamientos corporales, depilación láser, exfoliación</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal>Tratamientos antiacné, masajes relajantes, peelings químicos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal>En Centro Estético Renacer, brindamos servicios especializados para cuidar y embellecer tu piel.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Renacer"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- CENTRO ESTÉTICO 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_estetico"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal>Centro Estético La Perla</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal>Av. 19 #34-10, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal>Masajes terapéuticos, tratamientos capilares, limpieza facial profunda</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal>Tratamientos antienvejecimiento, micropigmentación, bronceado sin sol</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal>Ofrecemos un ambiente relajante y una atención personalizada para que te sientas renovado y bello.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Estetico_La_Perla"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- CENTRO ESTÉTICO 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Centro_estetico"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal>Centro Estético Vida Bella</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal>Carrera 30 #52-20, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal>Tratamientos faciales, depilación láser, masajes reductivos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_esteticas"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal>Microblading, tratamientos antiacné, exfoliaciones corporales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal>Centro Estético Vida Bella ofrece una variedad de servicios para mejorar tu apariencia y bienestar.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Centro_Estetico_Vida_Bella"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- Clase Spa -->
+
+<Declaration>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <Class IRI="#Spa"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#especialidades_spa"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#especialidades_spa"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidades_spa"/>
+    <Class IRI="#Spa"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#descripcion"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#descripcion"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#descripcion"/>
+    <Class IRI="#Spa"/>
+</DataPropertyDomain>
+
+
+
+<!-- SPA 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Spa"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal>Spa Esencia Natural</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal>Av. 10 #20-30, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal>Masajes relajantes, tratamientos corporales, hidroterapia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_spa"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal>Tratamientos de aromaterapia, fangoterapia, envolturas corporales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal>Ofrecemos una experiencia única de relajación y bienestar en un ambiente natural y tranquilo.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Spa_Esencia_Natural"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+<!-- SPA 2 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Spa"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal>Spa Lujo Integral</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal>Calle 15 #25-50, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal>Masajes terapéuticos, tratamientos faciales, baños de vapor</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_spa"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal>Tratamientos antienvejecimiento, reflexología, hidroterapia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal>Disfruta de un oasis de paz y lujo con nuestros exclusivos tratamientos de spa.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Spa_Lujo_Integral"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- SPA 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Spa"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal>Spa Pura Vida</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal>Carrera 8 #12-40, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal>Tratamientos de desintoxicación, masajes con piedras calientes, sauna</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_spa"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal>Envolturas de algas, masajes ayurvédicos, hidroterapia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal>Proporcionamos una variedad de tratamientos de spa diseñados para revitalizar y rejuvenecer tu cuerpo y mente.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Spa_Pura_Vida"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- SPA 4 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Spa"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal>Spa Paraíso Tranquilo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal>Av. 30 #14-50, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal>Masajes con aceites esenciales, baños de barro, jacuzzi</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_spa"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal>Tratamientos de reducción de estrés, terapias holísticas, reflexología podal</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal>En Spa Paraíso Tranquilo, ofrecemos un ambiente sereno y tratamientos personalizados para tu bienestar.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Spa_Paraíso_Tranquilo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- SPA 5 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Spa"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal>Spa Armonía Total</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal>Calle 50 #20-30, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal>Masajes deportivos, tratamientos faciales, baños turcos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_spa"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal>Tratamientos de hidratación profunda, masajes tailandeses, terapias de sonido</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#descripcion"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal>Disfruta de una experiencia de spa completa con tratamientos diseñados para equilibrar cuerpo y mente.</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Spa_Armonía_Total"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.9</Literal>
+</DataPropertyAssertion>
+
+
+
+<!-- ENOTECAS -->
+
+
+<Declaration>
+    <DataProperty IRI="#especialidades_enoteca"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <Class IRI="#Enoteca"/>
+</DataPropertyDomain>
+
+
+<Declaration>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <Class IRI="#Enoteca"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#folletos_informativos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#folletos_informativos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#folletos_informativos"/>
+    <Class IRI="#Enoteca"/>
+</DataPropertyDomain>
+
+<Declaration>
+    <DataProperty IRI="#diversidad_de_productos"/>
+</Declaration>
+
+<DataPropertyRange>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <Datatype abbreviatedIRI="xsd:string"/>
+</DataPropertyRange>
+<DataPropertyDomain>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <Class IRI="#Enoteca"/>
+</DataPropertyDomain>
+
+
+<!-- ENOTECA 1 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Enoteca"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Enoteca Los Capachos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Carrera 6 #8-14, Villa de Leyva, Boyacá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Vinos, licores, quesos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Diversidad de estilos de vinos y licores</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#folletos_informativos"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Folletos informativos de los productos disponibles</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal>Empaque y entrega a domicilio disponible</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Enoteca_Los_Capachos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+<!-- ENOTECA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Enoteca"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Enoteca La Bodega</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Carrera 10 #15-20, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Vinos, licores, destilados</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Amplia gama de vinos y licores nacionales e internacionales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#folletos_informativos"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Folletos informativos sobre maridaje y recomendaciones de consumo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal>Servicio de empaque y entrega a domicilio para eventos y compras al por mayor</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Enoteca_La_Bodega"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.8</Literal>
+</DataPropertyAssertion>
+
+<!-- ENOTECA 3 -->
+
+<Declaration>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Enoteca"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Enoteca El Viñedo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Calle 25 #12-34, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Vinos, licores, aperitivos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Gran variedad de vinos y licores internacionales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#folletos_informativos"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Folletos informativos de las últimas cosechas disponibles</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal>Servicio de empaque y entrega a domicilio para compras superiores a $100</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Enoteca_El_Vinedo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+<!-- ENOTECA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Enoteca"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Enoteca La Cava del Vino</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Calle 15 #25-30, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Vinos, licores, champagnes</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Gran selección de vinos de diferentes añadas y variedades</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#folletos_informativos"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Folletos informativos sobre maridaje y notas de cata</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal>Servicio de empaque y entrega a domicilio para eventos y celebraciones</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Enoteca_La_Cava_del_Vino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+
+
+<!-- ENOTECA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Enoteca"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Enoteca Vinícola del Valle</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Calle 5 #10-15, Tunja, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades_enoteca"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Vinos, licores, vinos artesanales</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#diversidad_de_productos"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Amplia variedad de vinos y licores de la región y del mundo</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#folletos_informativos"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Folletos informativos sobre bodegas y procesos de elaboración</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicio_empaque_entrega"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal>Servicio de empaque y entrega a domicilio para pedidos superiores a $50</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Enoteca_Vinicola_del_Valle"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+
+
+<!-- Mercado Tradicional -->
+
+<!-- Mercado Tradicional 1-->
+
+<!--<Declaration>
+    <Class IRI="#Mercado_tradicional_colombiano"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Mercado_tradicional"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal>Mercado de Paloquemao</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#ubicacion"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal>Carrera 30 #10-00, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal>Lunes a sábado, 5:00 am - 5:00 pm</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_ofrecidos"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal>Frutas, verduras, carnes, pescados, lácteos, hierbas, flores</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#ambiente"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal>Ambiente bullicioso y colorido, gran variedad de productos frescos</Literal>
+</DataPropertyAssertion>
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mercado_tradicional_colombiano"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>-->
+
 
 
 
