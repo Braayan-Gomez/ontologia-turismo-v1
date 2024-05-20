@@ -128,15 +128,11 @@
     <Declaration>
         <Class IRI="#Chill_out"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Chiringuito"/>
-    </Declaration>
+   
     <Declaration>
         <Class IRI="#Chocolatería"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Churrería"/>
-    </Declaration>
+  
     <Declaration>
         <Class IRI="#Circuito_de_motos"/>
     </Declaration>
@@ -218,9 +214,7 @@
     <Declaration>
         <Class IRI="#Hipodromo"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Horchatería"/>
-    </Declaration>
+
     <Declaration>
         <Class IRI="#Hospital_privado"/>
     </Declaration>
@@ -258,9 +252,7 @@
     <Declaration>
         <Class IRI="#Mercado_tradicional"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Mesón"/>
-    </Declaration>
+
 
     <Declaration>
         <Class IRI="#Micromovilidad"/>
@@ -671,18 +663,12 @@
         <Class IRI="#Chill_out"/>
         <Class IRI="#Fiesta_y_entretenimiento"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chiringuito"/>
-        <Class IRI="#Restauración"/>
-    </SubClassOf>
+ 
     <SubClassOf>
         <Class IRI="#Chocolatería"/>
         <Class IRI="#Restauración"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Churrería"/>
-        <Class IRI="#Restauración"/>
-    </SubClassOf>
+
     <SubClassOf>
         <Class IRI="#Circuito_de_motos"/>
         <Class IRI="#Deporte"/>
@@ -787,10 +773,7 @@
         <Class IRI="#Hipodromo"/>
         <Class IRI="#Deporte"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Horchatería"/>
-        <Class IRI="#Restauración"/>
-    </SubClassOf>
+
     <SubClassOf>
         <Class IRI="#Hospital_privado"/>
         <Class IRI="#Servicio_médico"/>
@@ -832,11 +815,7 @@
         <Class IRI="#Mercado_tradicional"/>
         <Class IRI="#Alimentacion"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Mesón"/>
-        <Class IRI="#Restauración"/>
-    </SubClassOf>
- 
+
     <SubClassOf>
         <Class IRI="#Micromovilidad"/>
         <Class IRI="#Transporte_de_viajeros"/>
@@ -1093,21 +1072,21 @@
         <Class IRI="#Operador_receptivo"/>
         <Class IRI="#Turoperador"/>
     </DisjointClasses>
-    <DisjointClasses>
+    <!-- <DisjointClasses>
         <Class IRI="#Alimentacion"/>
         <Class IRI="#Comercion_y_moda"/>
         <Class IRI="#Servicio_financiero"/>
         <Class IRI="#Servicio_médico"/>
         <Class IRI="#Servicios_varios"/>
-    </DisjointClasses>
-    <DisjointClasses>
+    </DisjointClasses> -->
+    <!-- <DisjointClasses>
         <Class IRI="#Asistencia_a_eventos"/>
         <Class IRI="#Deporte"/>
         <Class IRI="#Educación"/>
         <Class IRI="#Fiesta_y_entretenimiento"/>
         <Class IRI="#Ocio_y_cultura"/>
         <Class IRI="#Salud_y_bienestar"/>
-    </DisjointClasses>
+    </DisjointClasses> -->
     <DisjointClasses>
         <Class IRI="#Auditorio"/>
         <Class IRI="#Palacio_o_centro_de_congresos_y_exposiciones"/>
@@ -1125,14 +1104,10 @@
         <Class IRI="#Cafetería"/>
         <Class IRI="#Casa_de_comidas_para_llevar"/>
         <Class IRI="#Cervecería"/>
-        <Class IRI="#Chiringuito"/>
         <Class IRI="#Chocolatería"/>
-        <Class IRI="#Churrería"/>
         <Class IRI="#Coctelería"/>
         <Class IRI="#Heladería"/>
-        <Class IRI="#Horchatería"/>
         <Class IRI="#Mercado_gastronómico"/>
-        <Class IRI="#Mesón"/>
         <Class IRI="#Pub"/>
         <Class IRI="#Restaurante"/>
         <Class IRI="#Sidrería"/>
@@ -1191,14 +1166,14 @@
         <Class IRI="#Centro_educativo"/>
         <Class IRI="#Granja_escuela"/>
     </DisjointClasses>
-    <DisjointClasses>
+    <!-- <DisjointClasses>
         <Class IRI="#Consigna_de_equipaje"/>
         <Class IRI="#Locutorio"/>
         <Class IRI="#Paquetería_y_mensajería"/>
         <Class IRI="#Peluquería"/>
         <Class IRI="#Taller_mecánico"/>
         <Class IRI="#Tintorería_o_lavandería"/>
-    </DisjointClasses>
+    </DisjointClasses> -->
     <DisjointClasses>
         <Class IRI="#Enoteca"/>
         <Class IRI="#Mercado_tradicional"/>
@@ -6124,14 +6099,14 @@
     </DataPropertyDomain>
 
     <Declaration>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
     </Declaration>
     <DataPropertyRange>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <Class IRI="#Cafetería"/>
     </DataPropertyDomain>
 
@@ -6170,7 +6145,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico"/>
         <Literal>Café Espresso, Cappuccino, Café Latte</Literal>
     </DataPropertyAssertion>
@@ -6215,7 +6190,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Dulce_Cafe"/>
         <Literal>Café Americano, Mocha, Frappé</Literal>
     </DataPropertyAssertion>
@@ -6260,7 +6235,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_del_Parque"/>
         <Literal>Cappuccino, Mocha, Café con canela</Literal>
     </DataPropertyAssertion>
@@ -6305,7 +6280,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7500.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Espresso_Barrio"/>
         <Literal>Espresso, Americano, Cappuccino</Literal>
     </DataPropertyAssertion>
@@ -6350,7 +6325,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8200.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_del_Barrio"/>
         <Literal>Café negro, Cortado, Café con aroma a vainilla</Literal>
     </DataPropertyAssertion>
@@ -6395,7 +6370,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7800.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_Encantado"/>
         <Literal>Café con crema, Café irlandés, Frappé de café</Literal>
     </DataPropertyAssertion>
@@ -6440,7 +6415,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8800.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_Aromatico_2"/>
         <Literal>Café con caramelo, Mocaccino, Café con leche condensada</Literal>
     </DataPropertyAssertion>
@@ -6485,7 +6460,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7600.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_del_Pueblo"/>
         <Literal>Café con almendras, Espresso macchiato, Café helado</Literal>
     </DataPropertyAssertion>
@@ -6531,7 +6506,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7800.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_de_la_Esquina"/>
         <Literal>Café con avellanas, Macchiato, Café frío con menta</Literal>
     </DataPropertyAssertion>
@@ -6577,7 +6552,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8500.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidades_de_cafe"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cafeteria_Cafe_Colibri"/>
         <Literal>Café con especias, Latte de coco, Café con canela y miel</Literal>
     </DataPropertyAssertion>
@@ -8016,15 +7991,9 @@
 
 
     <!-- COCTELERIAS -->
-    <Declaration>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
-    </Declaration>
-    <DataPropertyRange>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
+   
     <DataPropertyDomain>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <Class IRI="#Coctelería"/>
     </DataPropertyDomain>
 
@@ -8074,7 +8043,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Brújula"/>
         <Literal>Mojito de fresa, Caipirinha de mango, Piña colada con coco fresco</Literal>
     </DataPropertyAssertion>
@@ -8119,7 +8088,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Barrica"/>
         <Literal>Mojito cubano, Daiquiri de frutas tropicales, Caipirinha de maracuyá</Literal>
     </DataPropertyAssertion>
@@ -8164,7 +8133,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">23000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Copita"/>
         <Literal>Margarita de mango, Mojito de frutos rojos, Caipirinha de piña</Literal>
     </DataPropertyAssertion>
@@ -8209,7 +8178,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_Ambiente_Tropical"/>
         <Literal>Piña colada, Mojito cubano, Daiquiri de maracuyá</Literal>
     </DataPropertyAssertion>
@@ -8254,7 +8223,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">19000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Cava"/>
         <Literal>Mojito de coco, Caipirinha de maracuyá, Margarita de fresa</Literal>
     </DataPropertyAssertion>
@@ -8299,7 +8268,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_Copa_de_Oro"/>
         <Literal>Mojito de piña, Daiquiri de mango, Caipirinha de maracuyá</Literal>
     </DataPropertyAssertion>
@@ -8344,7 +8313,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Cima"/>
         <Literal>Mojito de maracuyá, Caipirinha de fresa, Piña colada de coco fresco</Literal>
     </DataPropertyAssertion>
@@ -8389,7 +8358,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Parada"/>
         <Literal>Margarita de mango, Mojito de maracuyá, Daiquiri de frutos rojos</Literal>
     </DataPropertyAssertion>
@@ -8434,7 +8403,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Playa"/>
         <Literal>Mojito de mango, Caipirinha de maracuyá, Piña colada de coco fresco</Literal>
     </DataPropertyAssertion>
@@ -8479,7 +8448,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">21000.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#especialidad_de_cocteles"/>
+        <DataProperty IRI="#especialidades"/>
         <NamedIndividual IRI="#Cocteleria_La_Pecera"/>
         <Literal>Margarita de maracuyá, Mojito de fresa, Piña colada de piña natural</Literal>
     </DataPropertyAssertion>
@@ -10387,15 +10356,9 @@
         <Class IRI="#Sidrería"/>
     </DataPropertyDomain>
 
-    <Declaration>
-        <DataProperty IRI="#especialidades_gastronomicas"/>
-    </Declaration>
-    <DataPropertyRange>
-        <DataProperty IRI="#especialidades_gastronomicas"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
+
     <DataPropertyDomain>
-        <DataProperty IRI="#especialidades_gastronomicas"/>
+        <DataProperty IRI="#especialidades"/>
         <Class IRI="#Sidrería"/>
     </DataPropertyDomain>
 <!-- SIDRERIA 1 -->
@@ -10438,7 +10401,7 @@
     <Literal>Otoño</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
+    <DataProperty IRI="#especialidades"/>
     <NamedIndividual IRI="#Sidreria_La_Cosecha"/>
     <Literal>Tortilla española, Chorizo a la sidra, Queso Cabrales</Literal>
 </DataPropertyAssertion>
@@ -10483,7 +10446,7 @@
     <Literal>Primavera</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
+    <DataProperty IRI="#especialidades"/>
     <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
     <Literal>Cachopos, Pulpo a la gallega, Fabada asturiana</Literal>
 </DataPropertyAssertion>
@@ -10528,7 +10491,7 @@
     <Literal>Verano</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
+    <DataProperty IRI="#especialidades"/>
     <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
     <Literal>Empanadas asturianas, Pulpo a la parrilla, Parrillada de mariscos</Literal>
 </DataPropertyAssertion>
@@ -10573,53 +10536,53 @@
     <Literal>Invierno</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
+    <DataProperty IRI="#especialidades"/>
     <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Cantabrico"/>
     <Literal>Pulpo a la sidra, Fabes con almejas, Chuletón de buey</Literal>
 </DataPropertyAssertion>
 
 <!-- SIDRERIA 5 -->
 <Declaration>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
 </Declaration>
 
 <ClassAssertion>
     <Class IRI="#Sidrería"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
 </ClassAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#direccion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal>Carrera 20 #15-30, Barrio El Prado, Cali, Colombia</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#nombre"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal>La Cosecha del Valle - Sidrería</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#valoracion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#horario_de_apertura"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal>18:00 - 23:00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#precio_promedio"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">58000.00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#temporada_de_la_sidra"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal>Primavera</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_2"/>
     <Literal>Empanadas asturianas, Pulpo a la parrilla, Parrillada de mariscos</Literal>
 </DataPropertyAssertion>
 
@@ -10663,98 +10626,98 @@
     <Literal>Otoño</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
+    <DataProperty IRI="#especialidades"/>
     <NamedIndividual IRI="#Sidreria_El_Rincon_Asturiano"/>
     <Literal>Tortilla española, Chorizo a la sidra, Queso Cabrales</Literal>
 </DataPropertyAssertion>
 
 <!-- SIDRERIA 7 -->
 <Declaration>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
 </Declaration>
 
 <ClassAssertion>
     <Class IRI="#Sidrería"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
 </ClassAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#direccion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal>Carrera 15 #8-45, Barrio San Francisco, Barranquilla, Colombia</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#nombre"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal>La Cosecha de Asturias - Sidrería</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#valoracion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#horario_de_apertura"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal>16:00 - 22:00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#precio_promedio"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">56000.00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#temporada_de_la_sidra"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal>Invierno</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias"/>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_de_Asturias_2"/>
     <Literal>Cachopos, Pulpo a la gallega, Fabada asturiana</Literal>
 </DataPropertyAssertion>
 
 <!-- SIDRERIA 8 -->
 <Declaration>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
 </Declaration>
 
 <ClassAssertion>
     <Class IRI="#Sidrería"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
 </ClassAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#direccion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal>Calle 12 #20-30, Barrio El Recreo, Pereira, Colombia</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#nombre"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal>La Cosecha del Valle - Sidrería</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#valoracion"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#horario_de_apertura"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal>17:00 - 23:00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#precio_promedio"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">59000.00</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
     <DataProperty IRI="#temporada_de_la_sidra"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal>Verano</Literal>
 </DataPropertyAssertion>
 <DataPropertyAssertion>
-    <DataProperty IRI="#especialidades_gastronomicas"/>
-    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle"/>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Sidreria_La_Cosecha_del_Valle_3"/>
     <Literal>Empanadas asturianas, Pulpo a la parrilla, Parrillada de mariscos</Literal>
 </DataPropertyAssertion>
 
@@ -11685,15 +11648,2519 @@
 </DataPropertyAssertion>
 
     <!-- CASA DE CAMBIO 2 -->
+    <Declaration>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal>Calle 15 #20-45, Barrio San Fernando, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal>Casa de Cambio Cambios Rápidos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#monedas_disponibles_para_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal>Dólar estadounidense, Peso mexicano, Franco suizo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_cambio_ofrecido"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Cambios_Rápidos"/>
+    <Literal>Tipo de cambio fijo por día</Literal>
+</DataPropertyAssertion>
+
     <!-- CASA DE CAMBIO 3 -->
+    <Declaration>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal>Carrera 20 #25-10, Barrio El Poblado, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal>Casa de Cambio Dólar Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal>10:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#monedas_disponibles_para_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal>Dólar estadounidense, Euro, Peso colombiano</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_cambio_ofrecido"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Dólar_Express"/>
+    <Literal>Tipo de cambio al mercado actual</Literal>
+</DataPropertyAssertion>
+
     <!-- CASA DE CAMBIO 4 -->
+    <Declaration>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal>Calle 30 #40-25, Barrio La Castellana, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal>Casa de Cambio MultiDivisas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#monedas_disponibles_para_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal>Dólar estadounidense, Euro, Peso mexicano</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_cambio_ofrecido"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_MultiDivisas"/>
+    <Literal>Tipo de cambio fijo por día</Literal>
+</DataPropertyAssertion>
+
     <!-- CASA DE CAMBIO 5 -->
+    <Declaration>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal>Carrera 5 #10-15, Barrio La Floresta, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal>Casa de Cambio Libra</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal>08:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#monedas_disponibles_para_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal>Dólar estadounidense, Euro, Libra esterlina</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_cambio_ofrecido"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_Libra"/>
+    <Literal>Tipo de cambio al mercado actual</Literal>
+</DataPropertyAssertion>
+
     <!-- CASA DE CAMBIO 6 -->
-    <!-- CASA DE CAMBIO 7 -->
-    <!-- CASA DE CAMBIO 8 -->
+<Declaration>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Casa_de_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal>Calle 12 #8-25, Barrio La Candelaria, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal>Casa de Cambio EuroCash</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal>09:00 - 17:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#monedas_disponibles_para_cambio"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal>Dólar estadounidense, Euro, Peso colombiano</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_cambio_ofrecido"/>
+    <NamedIndividual IRI="#Casa_de_Cambio_EuroCash"/>
+    <Literal>Tipo de cambio fijo por día</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA -->
+    <Declaration>
+        <DataProperty IRI="#requisitos_para_la_devolución"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#requisitos_para_la_devolución"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requisitos_para_la_devolución"/>
+        <Class IRI="#Devolución_de_IVA"/>
+    </DataPropertyDomain>
+
+    <Declaration>
+        <DataProperty IRI="#plazo_para_la_devolución"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#plazo_para_la_devolución"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#plazo_para_la_devolución"/>
+        <Class IRI="#Devolución_de_IVA"/>
+    </DataPropertyDomain>
+
+<!-- DEVOLUCION DE IVA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal>Carrera 15 #123-30, Local 201, Centro Comercial Unicentro, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal>Devolución de IVA Centro Comercial Unicentro</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal>10:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal>Factura de compra, Pasaporte</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Unicentro"/>
+    <Literal>30 días hábiles</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal>Aeropuerto Internacional El Dorado, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal>Devolución de IVA Tienda Duty Free</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal>24 horas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal>Boleta de compra, Pasaporte, Salida del país</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Tienda_Duty_Free"/>
+    <Literal>60 días corridos</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal>Carrera 11 #82-71, Local 303, Centro Comercial Andino, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal>Devolución de IVA Centro Comercial Andino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal>11:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal>Factura de compra, Documento de identidad</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Andino"/>
+    <Literal>45 días hábiles</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal>Zona Franca de Barranquilla, Carrera 52 #95-66, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal>Devolución de IVA Zona Franca de Barranquilla</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal>08:00 - 17:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal>Factura de compra, Documento de identidad, Registro de exportación</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Barranquilla"/>
+    <Literal>60 días calendario</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal>Calle 185 #45-03, Local 210, Centro Comercial Santa Fe, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal>Devolución de IVA Centro Comercial Santa Fe</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal>Factura de compra, Documento de identidad</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Centro_Comercial_Santa_Fe"/>
+    <Literal>30 días hábiles</Literal>
+</DataPropertyAssertion>
+
+<!-- DEVOLUCION DE IVA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Devolución_de_IVA"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal>Zona Franca de Cartagena, Kilómetro 13 Vía al Mar, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal>Devolución de IVA Zona Franca de Cartagena</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#requisitos_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal>Factura de compra, Documento de identidad, Registro de exportación</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#plazo_para_la_devolución"/>
+    <NamedIndividual IRI="#Devolución_de_IVA_Zona_Franca_de_Cartagena"/>
+    <Literal>60 días calendario</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINAS BANCARIAS -->
+
+    <Declaration>
+        <DataProperty IRI="#bancos_asociados"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#bancos_asociados"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bancos_asociados"/>
+        <Class IRI="#Oficina_bancaria"/>
+    </DataPropertyDomain>
+
+     <Declaration>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+        <Class IRI="#Oficina_bancaria"/>
+    </DataPropertyDomain>
+
+<!-- OFICINA BANCARIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal>Carrera 7 #71-21, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal>Oficina Bancaria Banco Popular</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal>08:00 - 15:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal>Banco Popular</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Popular"/>
+    <Literal>Apertura de cuentas, Préstamos, Servicios de caja</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINA BANCARIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal>Carrera 43 #5A-68, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal>Oficina Bancaria Bancolombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal>09:00 - 16:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal>Bancolombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Bancolombia"/>
+    <Literal>Asesoría financiera, Transferencias, Pago de servicios</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINA BANCARIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal>Calle 100 #19-61, Local 105, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal>Oficina Bancaria BBVA</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal>08:30 - 16:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal>BBVA</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_BBVA"/>
+    <Literal>Consulta de saldo, Retiro de efectivo, Pago de servicios</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINA BANCARIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal>Carrera 15 #12-34, Local 102, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal>Oficina Bancaria Davivienda</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal>07:00 - 15:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal>Davivienda</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Davivienda"/>
+    <Literal>Depósitos, Retiros, Cambio de cheques</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINA BANCARIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal>Carrera 9 #22-50, Local 201, Bucaramanga, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal>Oficina Bancaria Banco Agrario</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal>08:00 - 15:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal>Banco Agrario</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_Agrario"/>
+    <Literal>Créditos, Pagos de nómina, Transferencias internacionales</Literal>
+</DataPropertyAssertion>
+
+<!-- OFICINA BANCARIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Oficina_bancaria"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal>Calle 12 #4-34, Local 102, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal>Oficina Bancaria Banco GNB Sudameris</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal>09:00 - 16:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#bancos_asociados"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal>Banco GNB Sudameris</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Oficina_Bancaria_Banco_GNB_Sudameris"/>
+    <Literal>Seguros, Inversiones, Asesoramiento financiero</Literal>
+</DataPropertyAssertion>
+
+<!-- SERVICIOS DE SALUD -->
+<!-- FARMACIAS -->
+    <Declaration>
+        <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipo_de_productos_disponibles"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo_de_productos_disponibles"/>
+        <Class IRI="#Farmacia"/>
+    </DataPropertyDomain>
+
+<!-- FARMACIA 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+    <Literal>Carrera 23 #45-67, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+    <Literal>Farmacia Alfareros</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+    <Literal>07:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_Alfareros"/>
+    <Literal>Medicamentos de venta libre, Productos de cuidado personal</Literal>
+</DataPropertyAssertion>
+
+<!-- FARMACIA 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+    <Literal>Calle 10 #15-23, Local 205, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+    <Literal>Farmacia Salud y Vida</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_Salud_y_Vida"/>
+    <Literal>Medicamentos recetados, Artículos de cuidado infantil</Literal>
+</DataPropertyAssertion>
+
+<!-- FARMACIA 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+    <Literal>Diagonal 45 #67-89, Local 301, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+    <Literal>Farmacia La Rebaja</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+    <Literal>07:30 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_La_Rebaja"/>
+    <Literal>Medicamentos genéricos, Artículos de cuidado facial</Literal>
+</DataPropertyAssertion>
+
+<!-- FARMACIA 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+    <Literal>Avenida 20 de Julio #12-34, Local 102, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+    <Literal>Farmacia La Económica</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+    <Literal>09:00 - 19:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_La_Económica"/>
+    <Literal>Medicamentos homeopáticos, Productos para el cuidado del cabello</Literal>
+</DataPropertyAssertion>
+
+<!-- FARMACIA 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+    <Literal>Carrera 5 #18-56, Local 201, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+    <Literal>Farmacia Santa Isabel</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_Santa_Isabel"/>
+    <Literal>Medicamentos de marca, Productos de higiene bucal</Literal>
+</DataPropertyAssertion>
+
+<!-- FARMACIA 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Farmacia"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+    <Literal>Calle 23 #14-45, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+    <Literal>Farmacia San Pablo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+    <Literal>07:30 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tipo_de_productos_disponibles"/>
+    <NamedIndividual IRI="#Farmacia_San_Pablo"/>
+    <Literal>Medicamentos genéricos, Artículos de cuidado para bebés</Literal>
+</DataPropertyAssertion>
+
+<!-- Hospital_privado -->
+
+<!-- ______________________________ -->
+<!-- Consigna_de_equipajes -->
+    <Declaration>
+        <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+        <Class IRI="#Consigna_de_equipaje"/>
+    </DataPropertyDomain>
+
+     <Declaration>
+        <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+        <Class IRI="#Consigna_de_equipaje"/>
+    </DataPropertyDomain>
+<!-- Consigna_de_equipaje 1-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal>Aeropuerto Internacional El Dorado, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal>Consigna de Equipaje El Dorado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal>24 horas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal>100x60x40 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_El_Dorado"/>
+    <Literal>5000 COP por día</Literal>
+</DataPropertyAssertion>
+
+<!-- Consigna_de_equipaje 2-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal>Carrera 10 #25-30, Local 102, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal>Consigna de Equipaje Centro Ciudad</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal>120x80x50 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Ciudad"/>
+    <Literal>8000 COP por día</Literal>
+</DataPropertyAssertion>
+
+<!-- Consigna_de_equipaje 3-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal>Calle 16 #9-23, Local 301, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal>Consigna de Equipaje Centro Histórico</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal>90x50x40 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Histórico"/>
+    <Literal>6000 COP por día</Literal>
+</DataPropertyAssertion>
+
+<!-- Consigna_de_equipaje 4-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal>Plaza Mayor #12-45, Local 201, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal>Consigna de Equipaje Plaza Mayor</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal>10:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal>110x60x50 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Plaza_Mayor"/>
+    <Literal>7000 COP por día</Literal>
+</DataPropertyAssertion>
+
+<!-- Consigna_de_equipaje 5-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal>Carrera 14 #82-36, Local 104, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal>Consigna de Equipaje Zona Rosa</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal>130x70x50 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Zona_Rosa"/>
+    <Literal>8500 COP por día</Literal>
+</DataPropertyAssertion>
+
+<!-- Consigna_de_equipaje 6-->
+<Declaration>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Consigna_de_equipaje"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal>Carrera 7 #45-67, Local 201, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal>Consigna de Equipaje Centro Comercial</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal>10:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tamaño_maximo_de_equipaje_permitido"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal>120x60x40 cm</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifa_por_periodo_de_almacenamiento"/>
+    <NamedIndividual IRI="#Consigna_Equipaje_Centro_Comercial"/>
+    <Literal>7500 COP por día</Literal>
+</DataPropertyAssertion>
 
 
+<!-- Locutorios -->
+  <Declaration>
+        <DataProperty IRI="#tarifas_de_llamadas"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#tarifas_de_llamadas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tarifas_de_llamadas"/>
+        <Class IRI="#Locutorio"/>
+    </DataPropertyDomain>
 
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+        <Class IRI="#Locutorio"/>
+    </DataPropertyDomain>
+<!-- Locutorio 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal>Carrera 15 #45-67, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal>Locutorio Central</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal>Llamadas locales: 100 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_Central"/>
+    <Literal>Envío de fax, Venta de tarjetas telefónicas</Literal>
+</DataPropertyAssertion>
+
+<!-- Locutorio 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal>Diagonal 20 #34-56, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal>Locutorio Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal>09:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal>Llamadas locales: 150 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_Express"/>
+    <Literal>Internet, Fotocopias</Literal>
+</DataPropertyAssertion>
+
+<!-- Locutorio 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal>Calle 25 #15-40, Local 103, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal>Locutorio La Playa</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal>10:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal>Llamadas locales: 120 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_La_Playa"/>
+    <Literal>Envío de dinero, Recarga de celulares</Literal>
+</DataPropertyAssertion>
+
+<!-- Locutorio 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal>Carrera 30 #22-15, Local 201, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal>Locutorio Rápido</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal>08:00 - 22:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal>Llamadas locales: 110 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_Rápido"/>
+    <Literal>Envío de documentos, Impresiones</Literal>
+</DataPropertyAssertion>
+
+<!-- Locutorio 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal>Diagonal 80 #30-45, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal>Locutorio Las Américas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal>Llamadas locales: 130 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_Las_Americas"/>
+    <Literal>Fotocopias, Escaneo de documentos</Literal>
+</DataPropertyAssertion>
+
+<!-- Locutorio 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Locutorio"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal>Calle 10 #25-10, Local 201, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal>Locutorio Rapido y Fácil</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal>10:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tarifas_de_llamadas"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal>Llamadas locales: 120 COP/min, Llamadas internacionales: varían según destino</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Locutorio_Rapido_Y_Facil"/>
+    <Literal>Impresiones a color, Envío de documentos</Literal>
+</DataPropertyAssertion>
+
+
+<!-- Paqueterias_y_mensajería -->
+    <Declaration>
+        <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+        <Class IRI="#Paquetería_y_mensajería"/>
+    </DataPropertyDomain>
+
+    <Declaration>
+        <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+        <Class IRI="#Paquetería_y_mensajería"/>
+    </DataPropertyDomain>
+
+<!-- Paqueteria_y_mensajería 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal>Carrera 25 #30-45, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal>Paquetería Rápida</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal>Servientrega, Envía</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Paqueteria_Rapida"/>
+    <Literal>Entrega en 24-48 horas</Literal>
+</DataPropertyAssertion>
+
+<!-- Paquetería_y_mensajería 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal>Diagonal 15 #20-30, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal>Mensajería Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal>Deprisa, Interrapidísimo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Mensajeria_Express"/>
+    <Literal>Entrega en 12-24 horas</Literal>
+</DataPropertyAssertion>
+
+<!-- Paquetería_y_mensajería 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal>Carrera 10 #15-20, Local 101, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal>Rapidex Paquetería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal>08:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal>Envía, TCC</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Rapidex_Paqueteria"/>
+    <Literal>Entrega en 24-72 horas</Literal>
+</DataPropertyAssertion>
+
+<!-- Paquetería_y_mensajería 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal>Av. Caracas #25-40, Local 202, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal>Mensajeros Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal>Servientrega, Deprisa</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Mensajeros_Express"/>
+    <Literal>Entrega en 12-48 horas</Literal>
+</DataPropertyAssertion>
+
+<!-- Paquetería_y_mensajería 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Envios_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal>Calle 7 #12-30, Local 101, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal>Envíos Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal>Inter Rapidisimo, Servientrega</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Envios_Express"/>
+    <Literal>Entrega en 24-72 horas</Literal>
+</DataPropertyAssertion>
+
+<!-- Paquetería_y_mensajería 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Paquetería_y_mensajería"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal>Diagonal 40 #20-15, Local 301, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal>Veloz Paquetería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#empresas_de_mensajeria_asociadas"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal>Deprisa, TCC</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#tiempo_de_entrega_estimado"/>
+    <NamedIndividual IRI="#Veloz_Paqueteria"/>
+    <Literal>Entrega en 12-48 horas</Literal>
+</DataPropertyAssertion>
+
+
+<!-- Peluquería -->
+
+    <Declaration>
+        <DataProperty IRI="#productos_utilizados"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#productos_utilizados"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#productos_utilizados"/>
+        <Class IRI="#Peluquería"/>
+    </DataPropertyDomain>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+        <Class IRI="#Peluquería"/>
+    </DataPropertyDomain>
+<!-- Peluqueria 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Belleza_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal>Carrera 20 #15-25, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal>Belleza Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal>Wella, L'Oréal, Schwarzkopf</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Belleza_Express"/>
+    <Literal>Corte de cabello, Coloración, Peinados</Literal>
+</DataPropertyAssertion>
+
+<!-- Peluqueria 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal>Diagonal 15 #25-30, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal>Estilo Único</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal>Redken, Matrix, Paul Mitchell</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Estilo_Unico"/>
+    <Literal>Lavado, Tratamientos capilares, Alisados</Literal>
+</DataPropertyAssertion>
+
+<!-- Peluqueria 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal>Av. Primera #10-15, Local 102, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal>Elegancia Peluquería</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal>Schwarzkopf, Kerastase, Sebastian Professional</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Elegancia_Peluqueria"/>
+    <Literal>Peinados para eventos, Tratamientos de keratina, Cortes de cabello</Literal>
+</DataPropertyAssertion>
+
+<!-- Peluqueria 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal>Carrera 30 #20-25, Local 301, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal>Belleza Eterna</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.1</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal>10:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal>Redken, Moroccanoil, CHI</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Belleza_Eterna"/>
+    <Literal>Maquillaje profesional, Extensiones de cabello, Manicura</Literal>
+</DataPropertyAssertion>
+
+<!-- Peluqueria 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal>Calle 10 #25-30, Local 102, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal>Corte y Estilo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal>L'Oréal Professionnel, Joico, OPI</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Corte_y_Estilo"/>
+    <Literal>Tratamientos capilares, Depilación, Peinados de novia</Literal>
+</DataPropertyAssertion>
+
+<!-- Peluqueria 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Peluquería"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal>Av. Bolívar #15-20, Local 201, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal>Estilo Creativo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal>Matrix, Wella Professionals, Revlon Professional</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Estilo_Creativo"/>
+    <Literal>Tratamientos de queratina, Cortes modernos, Maquillaje de fiesta</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#especialidades"/>
+        <Class IRI="#Taller_mecánico"/>
+    </DataPropertyDomain>
+
+<!-- Taller_mecánico 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Mecanica_Rapida"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal>Carrera 45 #30-25, Local 101, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal>Mecánica Rápida</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal>Mecánica general, Cambio de aceite, Alineación y balanceo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Rapida"/>
+    <Literal>Ford, Chevrolet, Renault</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal>Av. Primera #20-30, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal>Autotécnica Eficaz</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal>Reparación de motores, Diagnóstico electrónico, Cambio de frenos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Autotecnica_Eficaz"/>
+    <Literal>Toyota, Nissan, Hyundai</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal>Calle 30 #15-40, Local 102, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal>Mecánica Avanzada</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal>08:30 - 18:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal>Ajuste de motor, Reparación de suspensión, Cambio de correas</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecanica_Avanzada"/>
+    <Literal>Honda, Mazda, Kia</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal>Diagonal 20 #25-30, Local 201, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal>Taller Rápido Motos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal>09:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal>Reparación de motocicletas, Cambio de llantas, Ajuste de carburadores</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Taller_Rápido_Motos"/>
+    <Literal>Yamaha, Suzuki, Kawasaki</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal>Av. Principal #35-45, Local 102, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal>Mecánica Ágil</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal>08:00 - 18:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal>Diagnóstico computarizado, Reparación de sistemas eléctricos, Cambio de filtros</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Mecánica_Ágil"/>
+    <Literal>Chevrolet, Volkswagen, Ford</Literal>
+</DataPropertyAssertion>
+
+<!-- Taller_mecánico 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Taller_mecánico"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal>Carrera 25 #30-40, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal>Rápido Reparaciones</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#especialidades"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal>Alineación de dirección, Cambio de amortiguadores, Reparación de frenos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#marcas_de_vehiculos_atendidas"/>
+    <NamedIndividual IRI="#Taller_mecanica_Rápido_Reparaciones"/>
+    <Literal>Toyota, Hyundai, Nissan</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería -->
+    <Declaration>
+        <DataProperty IRI="#productos_utilizados"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#productos_utilizados"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#productos_utilizados"/>
+        <Class IRI="#Tintorería_o_lavandería"/>
+    </DataPropertyDomain>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#servicios_ofrecidos"/>
+        <Class IRI="#Tintorería_o_lavandería"/>
+    </DataPropertyDomain>
+
+<!-- Tintorería_o_lavandería 1 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal>Calle 20 #15-10, Local 101, Bogotá, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal>Limpieza Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal>Tintas ecológicas, Detergentes biodegradables</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpieza_Express"/>
+    <Literal>Lavado en seco, Planchado, Lavado por kilo</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería 2 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal>Av. Principal #25-30, Local 201, Medellín, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal>LavaRápido</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.3</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal>09:00 - 21:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal>Productos orgánicos certificados, Detergentes sin fosfatos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaRápido"/>
+    <Literal>Lavado en agua, Planchado, Limpieza de prendas delicadas</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería 3 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal>Diagonal 15 #20-25, Local 102, Cali, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal>Lavado Express</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal>07:30 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal>Detergentes hipoalergénicos, Suavizantes ecológicos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Lavado_Express"/>
+    <Literal>Lavado rápido, Secado al aire, Planchado a vapor</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería 4 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal>Carrera 30 #35-40, Local 201, Barranquilla, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal>LavaFácil</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.4</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal>08:00 - 20:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal>Jabones biodegradables, Suavizantes sin fosfatos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaFácil"/>
+    <Literal>Lavado con agua fría, Secado a máquina, Planchado por prenda</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería 5 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal>Calle 10 #5-15, Local 101, Cartagena, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal>Limpio y Secado</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.7</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal>09:00 - 19:00</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal>Detergentes sin fragancia, Suavizantes hipoalergénicos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_Limpio_y_Secado"/>
+    <Literal>Lavado y secado por carga, Planchado a vapor, Lavado de prendas delicadas</Literal>
+</DataPropertyAssertion>
+
+<!-- Tintorería_o_lavandería 6 -->
+<Declaration>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+</Declaration>
+
+<ClassAssertion>
+    <Class IRI="#Tintorería_o_lavandería"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+</ClassAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#direccion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal>Av. Principal #40-50, Local 202, Pereira, Colombia</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#nombre"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal>LavaTodo</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#valoracion"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.6</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#horario_de_apertura"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal>08:30 - 20:30</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#productos_utilizados"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal>Jabones biodegradables, Suavizantes sin fosfatos</Literal>
+</DataPropertyAssertion>
+<DataPropertyAssertion>
+    <DataProperty IRI="#servicios_ofrecidos"/>
+    <NamedIndividual IRI="#Tintorería_o_lavandería_LavaTodo"/>
+    <Literal>Lavado, secado y planchado, Tratamiento especial para manchas, Lavado de ropa de cama y baño</Literal>
+</DataPropertyAssertion>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
 
 <!-- INSTALACIUON TURISTICA OP VINCULADA -->
 

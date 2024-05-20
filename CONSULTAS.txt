@@ -1,0 +1,121 @@
+//PARA TRAER EL NOMBRE DE LAS CALSES PRINCIPALES
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX OFERTA: <http://www.semanticweb.org/andre/ontologies/turismo/oferta#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT 
+(strafter(str(?x), "#") AS ?subclaseNombre)
+WHERE {
+  ?x rdf:type owl:Class .
+  FILTER NOT EXISTS { ?x rdfs:subClassOf ?superclass }
+  FILTER(STRSTARTS(STR(?x), STR(OFERTA:)))
+}
+
+
+//_______________________________
+//CONSULTA PARA OBTENER EL NOMBRE DE UNA SUBCLASE
+
+SELECT (strafter(str(?x), "#") AS ?subclaseNombre) WHERE {
+  ?x rdfs:subClassOf OFERTA:Alojamiento .
+}
+
+//_______________________________
+//CONSULTA PARA TRAER EL NOMBRE DE DOS SUBCLASES O MAS
+
+SELECT (strafter(str(?x), "#") AS ?subclaseNombre) WHERE {
+  {?x rdfs:subClassOf OFERTA:Alojamiento .}
+  UNION
+  {?x rdfs:subClassOf OFERTA:Restauración .}
+}
+
+//_______________________________
+// CLAUSULAS PARA PAGINA DATOS 
+
+LIMIT 2 OFFSET 2
+
+
+//_______________________________
+//PARA ENCONTRAR INDIVIDUOS DE UNA CLASE ESPECIFICA INCLUIDO (FILTROS)
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX OFERTA: <http://www.semanticweb.org/andre/ontologies/turismo/oferta#>
+
+SELECT ?nombre ?valoracion
+WHERE {
+  ?SubClass rdfs:subClassOf* OFERTA:Hotel .
+  ?individual rdf:type ?SubClass .
+  ?individual OFERTA:nombre ?nombre .
+  ?individual OFERTA:valoracion ?valoracion .
+  FILTER(regex(str(?nombre),"","i"))
+  FILTER(?valoracion > 4.7)
+}
+
+
+//_______________________________
+//
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX OFERTA: <http://www.semanticweb.org/andre/ontologies/turismo/oferta#>
+
+SELECT DISTINCT ?individual ?propiedad ?valor
+WHERE {
+  ?hotelSubClass rdfs:subClassOf* turismo:Hotel .
+  ?individual rdf:type ?hotelSubClass .
+  ?individual ?propiedad ?valor .
+}
+
+//_________________________________
+>>>>>>QUERY GENERAL<<<<<<<<<<<<<<
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX OFERTA: <http://www.semanticweb.org/andre/ontologies/turismo/oferta#>
+
+SELECT ?nombre  
+	?direccion 
+	(REPLACE(STR(?valoracion), "^^<http://www.w3.org/2001/XMLSchema#double>", "") AS ?valoracion2)
+	(strafter(str(?refType), "#") AS ?type)
+WHERE {
+  ?x OFERTA:direccion ?direccion .
+  ?x OFERTA:nombre ?nombre .
+  ?x OFERTA:valoracion ?valoracion .
+  ?x rdf:type ?refType .
+    FILTER(
+    ?refType != owl:NamedIndividual &&  #Filtro para excluir individuos sin tipo explícito
+    (
+      regex(str(?nombre), "Cali", "i") ||
+      regex(str(?valoracion), "Cali", "i") ||
+      regex(str(?direccion), "Cali", "i") ||
+      regex(str(?refType), "Cali", "i")
+    )
+  ) 
+}
+
+//______________________________
+//FILTRO ESTRICTO
+ regex(str(?nombre), "texto de búsqueda") 
+
+
+---------------------------------------------------
+//revisar mas a profundidad si se llegara anecesitar
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX OFERTA: <http://www.semanticweb.org/andre/ontologies/turismo/oferta#>
+
+SELECT DISTINCT ?individual
+                (GROUP_CONCAT(?propiedad; separator=", ") AS ?propiedades)
+                (GROUP_CONCAT(?valor; separator=", ") AS ?valores)
+WHERE {
+  ?hotelSubClass rdfs:subClassOf* OFERTA:Hotel .
+  ?individual rdf:type ?hotelSubClass .
+  ?individual ?propiedad ?valor .
+}
+GROUP BY ?individual
