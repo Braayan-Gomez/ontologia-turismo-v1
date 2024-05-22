@@ -40,3 +40,142 @@ Restauración
 	Sidrería
 	Taberna
 	Tetería
+<<<<<<< HEAD
+=======
+Transporte de viajeros
+	Aerolínea
+	Coche compartido
+	Compañía de cruceros 
+	Empresa de alquiler de vehículos
+	Empresa ferroviaria
+	Empresa VTC
+	Micromovilidad
+	Operador de autocares
+	Operador de ferrys
+Instalación turística o vinculada 
+	Educación
+		Campamento
+		Centro de interpretacion
+		Centro educativo
+		Granja escuela
+	Asistencia a eventos
+		Auditorio
+		Palacio o centro de congresos y exposiciones
+		Sala de conciertos		
+	Salud y bienestar
+		Balneario
+		Centro estetico
+		Centro de masajes
+		Spa
+	Ocio y cultura
+		Acuario
+		Bodega
+		Centro de arte
+		Museo
+		Parque de atracciones
+		Parque infantil
+		Planetario
+		Sala de exposiciones
+		Salon recreativo
+		Teatro
+		Viñero
+		Zoologico
+	Fiesta y entretenimiento
+		Bingo
+		Casino
+		Chill out
+		Club de playa
+		Karaoke
+	Deporte
+		Bolera
+		Campo de futbol
+		Campo de golf
+		Campo de tiro
+		Cancha de baloncesto
+		Centro de actividades multiaventura
+		Circuito de motos
+		Clup hipico
+		Estacion de deportes de invierno
+		Estadio
+		Gimnacio
+		Hipodromo
+		Parque de patinaje
+		Piscina
+		Pista de atletismo
+		Pista de padel
+		Pista de patinaje
+		Pista de tenis
+		Polideportivo
+		Puerto deportivo
+		Rocodromo
+Negocio local
+	Servicio financiero
+		Cajero automático
+		Casa de cambio
+		Devolución de IVA
+		Oficina bancaria
+	Alimentacion
+		Enoteca
+		Máquina expendedora
+		Mercado tradicional
+		Panadería y pastelería
+		Supermercado
+		Tienda de ultramarinos
+	Servicio médico
+		Farmacia
+		Hospital privado
+	Servicios varios
+		Consigna de equipaje
+		Locutorio
+		Paquetería y mensajería
+		Peluquería
+		Taller mecánico
+		Tintorería o lavandería
+	Comercion y moda
+		Bazar
+		Centro comercial
+		Estanco
+		Joyería y relojería
+		Juguetería
+		Librería
+		Perfumería
+		Quiosco
+		Tienda de accesorios y complementos
+		Tienda de artesanías
+		Tienda de modas
+		Tienda de souvenirs
+		Tienda de telefonía
+
+
+
+<DataPropertyAssertion>
+    <DataProperty IRI="#capacidad_maxima"/>
+    <NamedIndividual IRI="#Palacio_de_Congresos_y_Exposiciones_Corferias"/>
+    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5000</Literal>
+</DataPropertyAssertion>
+
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio_promedio"/>
+        <Class IRI="#Deporte"/>
+    </DataPropertyDomain>
+
+    <Declaration>
+        <DataProperty IRI="#aforo"/>
+    </Declaration>
+    <DataPropertyRange>
+        <DataProperty IRI="#aforo"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aforo"/>
+        <Class IRI="#Deporte"/>
+    </DataPropertyDomain>
+
+
+
+
+
+
+
+>>>>>>> 595aa8c63ae8a32e366664dd675be4ac3c873bbf
